@@ -27,7 +27,7 @@ body {
 }
 
 body {
-	font-family: 'Roboto', sans-serif;
+	
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
 }
@@ -38,14 +38,12 @@ img {
 
 h1,
 h2,
-h3,
-h4,
-h5 {
+h3 {
 	font-family: 'Poppins', sans-serif;
 	padding: 0;
 	margin: 0;
 	font-weight: 600;
-	color: #222;
+	
 }
 
 
@@ -944,41 +942,52 @@ ol {
  portfolio2
 =======================*/
 .portfolio-details2 h1 {
-	
-	font-size: 20px;
+	text-transform: uppercase;
+	color: #e8e8e8;
+	font-size: 40px;
 	font-weight: 600;
-    text-transform: uppercase; 
+	margin-top: 100px;
+	margin-bottom: 20px;
 	text-align: left;
-	padding-top: 50px;
-	padding-bottom: 10px;
-	margin-left: 400px;
+	margin-left: 280px;
 	margin-right: 400px;
+
 }
 
 
 .portfolio-details2 h2 {
-	font-size: 30px;
-	font-weight: 700;
-	margin-bottom: 30px;
+	font-size: 24px;
+	font-weight: 600;
 	text-align: left;
-	margin-left: 400px;
-	margin-right: 400px;
+	padding-top: 50px;
+	padding-bottom: 10px;
+	margin-left: 350px;
+	margin-right: 350px;
+}
+
+.portfolio-details2 h3 {
+	font-size: 24px;
+	font-weight: 600;
+	text-align: left;
+	padding-top: 50px;
+	padding-bottom: 10px;
+	margin-left: 350px;
+	margin-right: 350px;
 }
 
 .portfolio-details2 p {
 	color: #5B5B5B;
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 400;
 	line-height: 1.5;
-	
 	margin-bottom: 30px;
-	margin-left: 400px;
-	margin-right: 400px;
+	margin-left: 350px;
+	margin-right: 350px;
 	text-align: left;
 }
 .portfolio-details2 p span {
 	
-	font-weight: 600;
+	font-weight: 650;
 }
 .portfolio-details2 figure img {
 	margin-bottom: 30px;
@@ -1010,9 +1019,8 @@ ol {
 	font-weight: 600;
     text-transform: uppercase; 
 	text-align: left;
-	margin-left: 400px;
-	margin-right: 400px;
-		padding-top: 50px;
+	
+	padding-top: 50px;
 	padding-bottom: 10px;
 }
 
@@ -1022,17 +1030,15 @@ ol {
 	font-weight: 700;
 	margin-bottom: 30px;
 	text-align: left;
-	margin-left: 400px;
-	margin-right: 400px;
+	
 }
 
 .portfolio-details3 p {
-		font-size: 16px;
-	font-weight: 400;
 	line-height: 1.5;
-	color: #3C3C3C;
 	margin-bottom: 30px;
-
+	color: #5B5B5B;
+	font-size: 18px;
+	font-weight: 400;
 	text-align: left;
 	
 }
@@ -1072,7 +1078,7 @@ ol {
 	text-align: left;
 	margin-left: 400px;
 	margin-right: 400px;
-		padding-top: 50px;
+	padding-top: 50px;
 	padding-bottom: 10px;
 }
 
@@ -1131,7 +1137,7 @@ ol {
 	text-align: left;
 	margin-left: 400px;
 	margin-right: 400px;
-		padding-top: 50px;
+	padding-top: 50px;
 	padding-bottom: 10px;
 }
 
