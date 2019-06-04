@@ -27,7 +27,7 @@ body {
 }
 
 body {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
 }
@@ -40,8 +40,7 @@ h1,
 h2,
 h3,
 h4,
-h5,
-h6 {
+h5 {
 	font-family: 'Poppins', sans-serif;
 	padding: 0;
 	margin: 0;
@@ -979,7 +978,7 @@ ol {
 }
 .portfolio-details2 p span {
 	
-	font-weight: 500;
+	font-weight: 600;
 }
 .portfolio-details2 figure img {
 	margin-bottom: 30px;
@@ -1039,7 +1038,7 @@ ol {
 }
 .portfolio-details3 p span {
 	
-	font-weight: 500;
+	font-weight: 600;
 }
 .portfolio-details3 figure img {
 	margin-bottom: 30px;
@@ -1098,7 +1097,7 @@ ol {
 }
 .portfolio-details4 p span {
 	
-	font-weight: 500;
+	font-weight: 600;
 }
 .portfolio-details4 figure img {
 	margin-bottom: 30px;
@@ -1159,7 +1158,7 @@ ol {
 }
 .portfolio-details5 p span {
 	
-	font-weight: 500;
+	font-weight: 600;
 }
 .portfolio-details5 figure img {
 	margin-bottom: 30px;
