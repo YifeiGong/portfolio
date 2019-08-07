@@ -17,9 +17,9 @@ body {-webkit-print-color-adjust:exact;font-size:13px;line-height:1.5;color:#333
 *,*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
 *:focus, a:focus {outline:0}
 
-.rrow{margin-left:-15px;margin-right:-15px}
-.rrow:before,.rrow:after{content:" ";display:table}
-.rrow:after{clear:both}
+.row{margin-left:-15px;margin-right:-15px}
+.row:before,.row:after{content:" ";display:table}
+.row:after{clear:both}
 
 .clear {clear:both}
 .clearfix:after{content:'';display:block;font-size:0;height:0;clear:both}
