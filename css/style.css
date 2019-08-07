@@ -17,38 +17,6 @@ Table of contents
 
 */
 
-/*--------------------
-	Main Styles
-----------------------*/
-
-html,
-body {
-	height: 100%;
-}
-
-body {
-	
-	-webkit-font-smoothing: antialiased;
-	font-smoothing: antialiased;
-}
-
-img {
-	max-width: 100%;
-}
-
-h1,
-h2,
-h3 {
-	font-family: 'Poppins', sans-serif;
-	padding: 0;
-	margin: 0;
-	font-weight: 600;
-	
-}
-
-
-
-
 button:focus,
 input:focus,
 textarea:focus,
@@ -56,11 +24,7 @@ select:focus {
 	outline: none;
 }
 
-a:hover,
-a:focus {
-	text-decoration: none;
-	outline: none;
-}
+
 
 ul,
 ol {
@@ -204,361 +168,6 @@ ol {
 	}
 }
 
-/* ====================
-  Header Section
-=======================*/
-
-.header-section {
-	position: fixed;
-	width: 100%;
-	top: 0;
-	left: 0;
-	z-index: 99;
-}
-
-.header-warp {
-	max-width: 1280px;
-	height: 50px;
-	
-	
-	margin: 0 auto;
-	
-	
-	
-}
-
-.site-logo {
-	float: left;
-	height: 100%;
-	padding: 5px 0;
-}
-
-.site-logo img {
-	margin-top: 10px;
-	margin-left: 60px;
-	max-height: 60%;
-}
-
-.responsive-switch,
-.sm-close {
-	display: none;
-}
-
-.site-menu ul {
-	list-style: none;
-	float: right;
-	padding-top: 16px;
-}
-
-.site-menu li {
-	display: inline-block;
-}
-
-.site-menu li.current a:after {
-	-webkit-transform: scale(1);
-	-ms-transform: scale(1);
-	transform: scale(1);
-}
-
-.site-menu a {
-	color: #414141;
-	padding: 15px 20px;
-	font-size: 16px;
-	position: relative;
-	margin-left: 15px;
-	font-weight: 600;
-}
-
-.site-menu a:after {
-	position: absolute;
-	content: "";
-	width: 6px;
-	height: 6px;
-	left: 50%;
-	bottom: -5px;
-	margin-left: -3px;
-	border-radius: 20px;
-	background: #ffbc00;
-	-webkit-transform: scale(0);
-	-ms-transform: scale(0);
-	transform: scale(0);
-	-webkit-transition: all 0.4s;
-	-o-transition: all 0.4s;
-	transition: all 0.4s;
-}
-
-/* ====================
-  Hero Section
-=======================*/
-
-.hero-section {
-
-	height: 560px;
-	padding-top: 200px;
-	background-position: top center;
-}
-
-.hero-section {
-	position: relative;
-}
-
-.hero-section .hero-style-two {
-	background: #333;
-	overflow: hidden;
-}
-
-.hero-section .hero-style-two #particles {
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	z-index: 1;
-}
-
-.hero-content {
-	position: fixed;
-	top: 150px;
-	margin-left: 200px;
-	margin-right: 200px;
-	z-index: 5;
-
-}
-
-.hero-content.sticky {
-	position: absolute;
-}
-
-.hero-content h2 {
-	font-size: 46px;
-	
-	font-weight: 700;
-	color: #000;
-	line-height: 1.3;
-	text-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-	border-radius: 20px;
-}
-.hero-content h3 {
-	
-	font-size: 24px;
-	font-weight: 200;
-	color: #808080;
-	line-height: 1.5;
-	
-	text-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-.hero-content h3 span {
-	
-	font-size: 24px;
-	font-weight: 500;
-	color: #808080;
-	line-height: 1.5;
-	
-	text-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-.hero-content i {
-	font-size: 70px;
-	color: #ffbc00;
-	padding-left: 10px;
-	-webkit-animation: finger 1.5s infinite;
-	animation: finger 1.5s infinite;
-}
-
-@-webkit-keyframes finger {
-	0% {
-		opacity: 1;
-		-webkit-transform: translateY(0px);
-		transform: translateY(0px);
-	}
-	50% {
-		opacity: .2;
-		-webkit-transform: translateY(15px);
-		transform: translateY(15px);
-	}
-	100% {
-		opacity: 1;
-		-webkit-transform: translateY(0);
-		transform: translateY(0);
-	}
-}
-
-@keyframes finger {
-	0% {
-		opacity: 1;
-		-webkit-transform: translateY(0px);
-		transform: translateY(0px);
-	}
-	50% {
-		opacity: .2;
-		-webkit-transform: translateY(15px);
-		transform: translateY(15px);
-	}
-	100% {
-		opacity: 1;
-		-webkit-transform: translateY(0);
-		transform: translateY(0);
-	}
-}
-
-/* ====================
-  About Section
-=======================*/
-
-.about-text {
-	padding-top: 80px;
-}
-
-.about-text h2 {
-	font-size: 50px;
-	font-weight: 700;
-	margin-bottom: 5px;
-}
-.about-text h3 {
-	font-size: 50px;
-	font-weight: 700;
-	margin-bottom: 5px;
-}
-.about-text h5 {
-	font-size: 14px;
-	color: #c3c3c3;
-}
-.about-text p {
-	font-size: 16px;
-	font-weight: 400;
-	color: #707070;
-	text-align: justify;
-	
-}
-.about-text p span {
-	font-size: 16px;
-	
-	font-weight: 500;
-	text-align: justify;
-}
-
-.about-title {
-	margin-bottom: 60px;
-}
-
-.single-progress-item {
-	margin-bottom: 45px;
-	position: relative;
-}
-
-.single-progress-item:last-child {
-	margin-bottom: 0;
-}
-
-.single-progress-item p {
-	font-size: 10px;
-	text-transform: uppercase;
-	font-weight: 600;
-	letter-spacing: 7px;
-	margin-bottom: 0px;
-	color: #333;
-}
-
-.progress-bar-style {
-	display: block;
-	height: 3px;
-	position: relative;
-	width: 100%;
-	border-radius: 25px;
-}
-
-.bar-inner {
-	position: absolute;
-	height: 100%;
-	left: 0;
-	top: 0;
-	border-radius: 25px;
-	background: #333;
-}
-
-.bar-inner span {
-	position: absolute;
-	right: 0;
-	top: -20px;
-	font-size: 12px;
-	font-weight: 600;
-	
-}
-
-/* ====================
-  Service Section
-=======================*/
-
-.service i {
-	font-size: 35px;
-	display: block;
-	margin-bottom: 20px;
-	float: left;
-	width: 70px;
-}
-
-.service .service-text {
-	padding-left: 70px;
-}
-
-.service h3 {
-	margin-bottom: 20px;
-	font-size: 18px;
-}
-
-/* ====================
-  Resume Section
-=======================*/
-
-.resume-section {
-	background: #f7f7f7;
-}
-
-.resume-item {
-	margin-bottom: 70px;
-}
-
-.resume-item:last-child {
-	margin-bottom: 0;
-}
-
-.resume-item .resume-year {
-	float: left;
-	width: 170px;
-	position: relative;
-}
-
-.resume-item .resume-year:after {
-	position: absolute;
-	content: "";
-	width: 10px;
-	height: 10px;
-	right: 25px;
-	top: 8px;
-	border-radius: 20px;
-	background: #ffbc00;
-}
-
-.resume-item .resume-year h2 {
-	font-size: 20px;
-	font-weight: 700;
-	position: relative;
-	z-index: 1;
-}
-
-.resume-item .resume-text {
-	margin-left: 200px;
-	padding-top: 2px;
-}
-
-.resume-item .resume-text h3 {
-	font-weight: 700;
-	font-size: 22px;
-	margin-bottom: 5px;
-}
-
-.resume-item .resume-text p {
-	font-size: 12px;
-	text-transform: uppercase;
-	margin-bottom: 0;
-}
 
 /* ====================
   Portfolio Section
@@ -592,9 +201,7 @@ ol {
 	cursor: pointer;
 }
 
-.portfolio-filter li.active {
-	color: #000;
-}
+
 
 .work-item {
 	display: block;
@@ -699,191 +306,62 @@ ol {
 	-o-transition: all 0.4s ease 0s;
 	transition: all 0.4s ease 0s;
 }
-
 /* ====================
-  Review Section
+  Resume Section
 =======================*/
 
-.review-warp {
-	max-width: 1500px;
-	margin: 0 auto;
-	background: #333;
+.resume-section {
+	background: #f7f7f7;
 }
 
-.review-warp:hover .review-slider .owl-nav .owl-prev,
-.review-warp:hover .review-slider .owl-nav .owl-next {
-	margin: 0 20px;
-	opacity: 1;
+.resume-item {
+	margin-bottom: 70px;
 }
 
-.review-slider .owl-nav {
+.resume-item:last-child {
+	margin-bottom: 0;
+}
+
+.resume-item .resume-year {
+	float: left;
+	width: 170px;
+	position: relative;
+}
+
+.resume-item .resume-year:after {
 	position: absolute;
-	width: 100%;
-	left: 0;
-	bottom: -45px;
-	text-align: center;
+	content: "";
+	width: 10px;
+	height: 10px;
+	right: 25px;
+	top: 8px;
+	border-radius: 20px;
+	background: #ffbc00;
 }
 
-.review-slider .owl-nav .owl-prev,
-.review-slider .owl-nav .owl-next {
-	margin: 0 5px;
-	color: #fff;
-	opacity: 0;
-	display: inline-block;
-	-webkit-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
-}
-
-.review-item {
+.resume-item .resume-year h2 {
+	font-size: 20px;
+	font-weight: 700;
 	position: relative;
 	z-index: 1;
 }
 
-.review-item p {
-	font-size: 15px;
-	color: #fff;
-	margin-bottom: 40px;
+.resume-item .resume-text {
+	margin-left: 200px;
+	padding-top: 2px;
 }
 
-.review-item h4 {
-	color: #fff;
+.resume-item .resume-text h3 {
+	font-weight: 700;
+	font-size: 22px;
 	margin-bottom: 5px;
 }
 
-.review-item span {
-	color: #ffbc00;
-	font-size: 12px;
-}
-
-/* ====================
-  Contact Section
-=======================*/
-
-.contact-form input[type=text],
-.contact-form input[type=email],
-.contact-form textarea {
-	width: 100%;
-	border: 2px solid #ececec;
-	margin-bottom: 30px;
-	font-size: 13px;
-	padding: 10px 15px;
-	height: 55px;
-}
-
-.contact-form textarea {
-	height: 150px;
-}
-
-.contact-form ::-webkit-input-placeholder {
-	font-style: italic;
-}
-
-.contact-form ::-ms-input-placeholder {
-	font-style: italic;
-}
-
-.contact-form :-ms-input-placeholder {
-	font-style: italic;
-}
-
-.contact-form ::placeholder {
-	font-style: italic;
-}
-
-#send-form.done {
-	background: #0fa049;
-	border-color: #0fa049;
-	color: #fff;
-}
-
-#send-form.error {
-	background: #e20808;
-	border-color: #e20808;
-	color: #fff;
-}
-
-.cont-info {
-	text-align: center;
-	margin-bottom: 50px;
-}
-
-.cont-info i {
-	display: block;
-	font-size: 35px;
-	margin-bottom: 15px;
-}
-
-.cont-info a,
-.cont-info span {
-	color: #333;
-	font-size: 15px;
-	font-weight: 600;
-}
-
-.cont-info a {
-	text-decoration: underline;
-}
-
-.cont-info p {
+.resume-item .resume-text p {
 	font-size: 12px;
 	text-transform: uppercase;
 	margin-bottom: 0;
 }
-
-/* ====================
-  Footer Section
-=======================*/
-
-.footer-section {
-	background-position: center -5px;
-	background-color: #111111;
-	text-align: center;
-	color: #A4A4A4;
-}
-
-.social-links {
-	margin-bottom: 25px;
-}
-
-.social-links a {
-	display: inline-table;
-	text-align: center;
-	height: 35px;
-	width: 35px;
-	color: #E6E6E6;
-	margin: 0 4px;
-	border-radius: 50%;
-	font-size: 13px;
-}
-
-.social-links a i {
-	display: table-cell;
-	vertical-align: middle;
-}
-
-.social-links a.facebook {
-	background: #2D5DA1;
-}
-
-.social-links a.twitter {
-	background: #1AB1E5;
-}
-
-.social-links a.behance {
-	background: #2A71F3;
-}
-
-.social-links a.dribbble {
-	background: #DF7EA5;
-}
-
-.copyright {
-	color: #585858;
-	margin-bottom: 0;
-	font-size: 14px;
-}
-
 /* ====================
  portfolio1
 =======================*/
@@ -942,10 +420,11 @@ ol {
  portfolio2
 =======================*/
 .portfolio-details2 h1 {
+	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
 	color: #e8e8e8;
 	font-size: 40px;
-	font-weight: 600;
+	font-weight: 700;
 	margin-top: 100px;
 	margin-bottom: 20px;
 	text-align: left;
@@ -957,7 +436,7 @@ ol {
 
 .portfolio-details2 h2 {
 	font-size: 24px;
-	font-weight: 600;
+	font-weight: 700;
 	text-align: left;
 	padding-top: 50px;
 	padding-bottom: 10px;
@@ -967,7 +446,7 @@ ol {
 
 .portfolio-details2 h3 {
 	font-size: 24px;
-	font-weight: 600;
+	font-weight: 700;
 	text-align: left;
 	padding-top: 50px;
 	padding-bottom: 10px;
@@ -976,9 +455,9 @@ ol {
 }
 
 .portfolio-details2 p {
+	font-family: 'Montserrat', sans-serif;
 	color: #5B5B5B;
 	font-size: 18px;
-	font-weight: 400;
 	line-height: 1.5;
 	margin-bottom: 30px;
 	margin-left: 350px;
@@ -987,7 +466,7 @@ ol {
 }
 .portfolio-details2 p span {
 	
-	font-weight: 650;
+	font-weight: 700;
 }
 .portfolio-details2 figure img {
 	margin-bottom: 30px;
@@ -1014,37 +493,59 @@ ol {
  portfolio3
 =======================*/
 .portfolio-details3 h1 {
-	
-	font-size: 20px;
-	font-weight: 600;
-    text-transform: uppercase; 
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	color: #e8e8e8;
+	font-size: 30px;
+	font-weight: 700;
+	margin-top: 100px;
+	margin-bottom: 20px;
 	text-align: left;
+
+}
+
+.portfolio-details3 h2 {
+	font-size: 24px;
+	font-weight: 700;
+	text-align: left;
+	padding-top: 50px;
+	padding-bottom: 10px;
+
+}
+
+.portfolio-details3 h3 {
+	font-size: 32px;
+	font-weight: 700;
+	text-align: left;
+	padding-top: 50px;
+	padding-bottom: 10px;
+
+}
+
+
+
+.portfolio-details3 h4 {
+	color:#1E90FF;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 700;
 	
 	padding-top: 50px;
 	padding-bottom: 10px;
+
 }
-
-
-.portfolio-details3 h2 {
-	font-size: 30px;
-	font-weight: 700;
-	margin-bottom: 30px;
-	text-align: left;
-	
-}
-
 .portfolio-details3 p {
-	line-height: 1.5;
-	margin-bottom: 30px;
+	font-family: 'Montserrat', sans-serif;
 	color: #5B5B5B;
 	font-size: 18px;
-	font-weight: 400;
+	line-height: 1.5;
+	margin-bottom: 30px;
+
 	text-align: left;
-	
 }
 .portfolio-details3 p span {
 	
-	font-weight: 600;
+	font-weight: 700;
 }
 .portfolio-details3 figure img {
 	margin-bottom: 30px;
@@ -1063,7 +564,7 @@ ol {
 }
 
 .portfolio-details3 .work-info-list li span {
-	font-weight: 600;
+	font-weight: 700;
 	
 	margin-right: 5px;
 }
@@ -1073,7 +574,7 @@ ol {
 .portfolio-details4 h1 {
 	
 	font-size: 20px;
-	font-weight: 600;
+	font-weight: 700;
     text-transform: uppercase; 
 	text-align: left;
 	margin-left: 400px;
@@ -1093,8 +594,7 @@ ol {
 }
 
 .portfolio-details4 p {
-		font-size: 16px;
-	font-weight: 400;
+	font-size: 16px;
 	line-height: 1.5;
 	color: #3C3C3C;
 	margin-bottom: 30px;
@@ -1102,8 +602,7 @@ ol {
 	
 }
 .portfolio-details4 p span {
-	
-	font-weight: 600;
+	font-weight: 700;
 }
 .portfolio-details4 figure img {
 	margin-bottom: 30px;
@@ -1122,8 +621,7 @@ ol {
 }
 
 .portfolio-details4 .work-info-list li span {
-	font-weight: 600;
-	
+	font-weight: 700;
 	margin-right: 5px;
 }
 /* ====================
@@ -1132,7 +630,7 @@ ol {
 .portfolio-details5 h1 {
 	
 	font-size: 20px;
-	font-weight: 600;
+	font-weight: 700;
     text-transform: uppercase; 
 	text-align: left;
 	margin-left: 400px;
@@ -1153,8 +651,7 @@ ol {
 
 .portfolio-details5 p {
 	color: #3C3C3C;
-		font-size: 16px;
-	font-weight: 400;
+	font-size: 16px;
 	line-height: 1.5;
 	padding: 0 45px;
 	margin-bottom: 30px;
@@ -1164,7 +661,7 @@ ol {
 }
 .portfolio-details5 p span {
 	
-	font-weight: 600;
+	font-weight: 700;
 }
 .portfolio-details5 figure img {
 	margin-bottom: 30px;
@@ -1183,8 +680,7 @@ ol {
 }
 
 .portfolio-details5 .work-info-list li span {
-	font-weight: 600;
-	
+	font-weight: 700;
 	margin-right: 5px;
 }
 /* ====================
@@ -1444,6 +940,7 @@ Quick-navigation
 
 
 .Quick-navigation {
+  font-family: 'Montserrat', sans-serif;
   position: fixed;
   z-index: 999;
   margin-top: 200px;
@@ -1861,13 +1358,7 @@ video {
   
 }
 
-#pagination-wrap ul li.active{
-  width:12px;
-  height:12px;
-  top:3px;
-  opacity:1;
-  box-shadow:rgba(0,0,0,0.1) 1px 1px 0px; 
-}
+
 
 
 .tooltip {
