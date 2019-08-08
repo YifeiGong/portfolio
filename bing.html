@@ -13,7 +13,12 @@
 		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="css/demo.css" />
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/sidebar.css" />
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+
+
+<link rel="stylesheet" href="css/style.css">
+<link href="css/css" rel="stylesheet" type="text/css">
 
 		<script>
 			document.documentElement.className = 'js';
@@ -40,25 +45,6 @@ span{color:#006dd4}
 
 
 </head>
-<body>
-
-
-	
-	<!-- Header section start -->
-	  <script type="text/javascript" src="js/header.js"></script>
-	<!-- Header section end -->
-	
-<nav class="Quick-navigation">
-  
-  <a href="#A" class="Quick-navigation-item">Overview</a>
-  <a href="#B" class="Quick-navigation-item">Design Research</a>
-  <a href="#C" class="Quick-navigation-item">Ideation</a>
-  <a href="#D" class="Quick-navigation-item">Service Design</a>
-  <a href="#E" class="Quick-navigation-item">Experience Design</a>
-  <a href="#F" class="Quick-navigation-item">Ipad-end Check-in System</a>
-  <a href="#I" class="Quick-navigation-item">Outcomes and Next Steps</a>
-
-</nav>
 <div class="content content--fixed">
 				<header class="codrops-header">
 
@@ -73,12 +59,42 @@ span{color:#006dd4}
 				</nav>
 				</header>
 			</div>
-	<!-- Portfolio details start -->
-	<section id="0" class="portfolio-details2">
+
+
+<body class="sn-active" data-gr-c-s-loaded="true">
+
+<section>
 		    <img src="img/lurie/images/A.png" width="100%">
 			
 		    
 	</section>
+
+	<div class="main" role="main">
+		<nav class="scroll-nav" role="navigation">
+			
+			<ol class="scroll-nav-list">
+				<li class="scroll-nav-item top active">
+					<a href="#0" class="scroll-nav-link"> </a>
+				</li>
+
+			</ol>
+		</nav>
+
+		<div class="post-article" >
+
+			
+			
+			
+
+			
+
+
+	
+	
+
+
+	<!-- Portfolio details start -->
+	
 
 	<section id="A">
 		<div class="portfolio-details2">
@@ -97,8 +113,8 @@ span{color:#006dd4}
 		<p>An animation</p>
 		<h3>An Outpatient Family Express Check-in Lane <br>on Lurie Children Hospital Chicago Campus Second Floor</h3>
 		<img src="img/lurie/images/A1.png" width="100%">
-		<h2 style="color:#1E90FF">
-	        | Design Sprints Accomplishments</h2>
+		<h4>
+	        | Design Sprints Accomplishments</h4>
 	        <h3>We run  4 two-weeks design sprints.</h3>
 	         <img src="img/lurie/images/A2.png" width="100%">
 <h2 style="color:#1E90FF">
@@ -117,6 +133,7 @@ Validation: <span>Prototyping, In-context testing, 3D modeling and rendering</sp
             
     </section>
     
+
     <section id="B">
     	<div class="portfolio-details2">
     	<h1>Design Research</h1>
@@ -522,11 +539,23 @@ I applied for a patent after graduation. Moreover, based on the wire in the smar
 	</section>
 	<!-- Portfolio section end -->
 
-	<!-- Footer section start -->
-	<script type="text/javascript" src="js/footer.js"></script>
-	<!-- Footer section end -->
+
 
 	<!--====== Jquery & Javascripts files  ======-->
+		<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.scrollNav.min.js"></script>
+	<script>
+		$('.post-article').scrollNav({
+			sections: 'h2',
+			titleText: 'Sections',
+			fixedMargin: 60
+		});
+		var $item = $('.scroll-nav-item');
+		$.each($item, function(){
+			$text = $(this).find('a').html().toLowerCase();
+			$(this).addClass($text);
+		});
+	</script>
 	<script src="js/jquery-2.1.4.min.js"></script>
 	<script src="js/jquery.nav.min.js"></script>
 	<script src="js/isotope.pkgd.min.js"></script>
