@@ -97,8 +97,16 @@ a:focus {
  */
 a:active,
 a:hover {
-  outline: 0;
+  
+  color: #000;
+  background-color: #F5F5F5;
+  
 }
+
+a:link  { 
+  color:#D3D3D3; 
+}
+
 
 /* ==========================================================================
    Typography
@@ -624,11 +632,12 @@ hr {
 .scroll-nav {
   margin-left: -15.625%;
   position: absolute;
+  
   top: 74px;
-
   width: 12.5%;
 }
 .scroll-nav.fixed {
+
   position: fixed;
   top: 60px;
 
@@ -648,6 +657,7 @@ hr {
   width: 40px;
 }
 .scroll-nav-item:before {
+
   color: #f0f0f0;
   display: block;
   position: absolute;
@@ -665,17 +675,19 @@ hr {
   -o-transform: scale(1.3, 1.3);
   transform: scale(1.3, 1.3);
   color: #f0f0f0;
-  font-weight: 300;
-  line-height: 300%;
+  font-weight: 500;
+  
 }
 .scroll-nav-item.active .scroll-nav-link {
+
   color: #212121;
 }
 .scroll-nav-item.active:before {
+
   color: #212121;
 }
 .scroll-nav-item.active a:hover {
-  font-weight: 400;
+  
 }
 
 .scroll-nav-link {

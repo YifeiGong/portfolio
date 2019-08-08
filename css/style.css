@@ -24,8 +24,9 @@ select:focus {
 	outline: none;
 }
 
-
-
+a {
+	color:#fff;
+}
 ul,
 ol {
 	padding: 0;
@@ -168,7 +169,17 @@ ol {
 	}
 }
 
-
+/* ====================
+  About Section
+=======================*/
+.about-title {
+	font-family: 'Rubik', sans-serif;
+	color:#696969;
+	font-size: 30px,
+}
+.about-title {
+	margin-top: 120px;
+}
 /* ====================
   Portfolio Section
 =======================*/
@@ -315,6 +326,7 @@ ol {
 }
 
 .resume-item {
+	font-family: 'Rubik', sans-serif;
 	margin-bottom: 70px;
 }
 
@@ -420,7 +432,7 @@ ol {
  portfolio2
 =======================*/
 .portfolio-details2 h1 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Rubik', sans-serif;
 	text-transform: uppercase;
 	color: #e8e8e8;
 	font-size: 40px;
@@ -455,7 +467,7 @@ ol {
 }
 
 .portfolio-details2 p {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Rubik', sans-serif;
 	color: #5B5B5B;
 	font-size: 18px;
 	line-height: 1.5;
@@ -493,7 +505,7 @@ ol {
  portfolio3
 =======================*/
 .portfolio-details3 h1 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Rubik', sans-serif;
 	text-transform: uppercase;
 	color: #e8e8e8;
 	font-size: 30px;
@@ -505,8 +517,10 @@ ol {
 }
 
 .portfolio-details3 h2 {
+
+	font-family: 'Rubik', sans-serif;
 	font-size: 24px;
-	font-weight: 700;
+	font-weight: 500;
 	text-align: left;
 	padding-top: 50px;
 	padding-bottom: 10px;
@@ -514,8 +528,10 @@ ol {
 }
 
 .portfolio-details3 h3 {
-	font-size: 32px;
-	font-weight: 700;
+	color: #212121;
+	font-family: 'Rubik', sans-serif;
+	font-size: 30px;
+	font-weight: 500;
 	text-align: left;
 	padding-top: 50px;
 	padding-bottom: 10px;
@@ -535,8 +551,8 @@ ol {
 
 }
 .portfolio-details3 p {
-	font-family: 'Montserrat', sans-serif;
-	color: #5B5B5B;
+	font-family: 'Rubik', sans-serif;
+	color: #363636;
 	font-size: 18px;
 	line-height: 1.5;
 	margin-bottom: 30px;
@@ -545,7 +561,7 @@ ol {
 }
 .portfolio-details3 p span {
 	
-	font-weight: 700;
+	font-weight: 500;
 }
 .portfolio-details3 figure img {
 	margin-bottom: 30px;
@@ -694,12 +710,7 @@ ol {
 /* Medium screen : 992px. */
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-	.about-text {
-		padding-top: 0;
-	}
-	.about-title {
-		margin-bottom: 30px;
-	}
+
 	.single-progress-item {
 		margin-bottom: 35px;
 	}
@@ -728,9 +739,7 @@ ol {
 	.hero-content h2 {
 		font-size: 55px;
 	}
-	.about-text {
-		padding-top: 40px;
-	}
+
 	.sp-container {
 		width: 100%;
 		margin-left: 0;
@@ -845,12 +854,7 @@ ol {
 	.hero-content i {
 		font-size: 60px;
 	}
-	.about-text {
-		padding-top: 30px;
-	}
-	.about-title {
-		margin-bottom: 35px;
-	}
+
 	.resume-item .resume-year {
 		float: none;
 		width: auto;
@@ -907,9 +911,7 @@ ol {
 	.hero-content i {
 		font-size: 40px;
 	}
-	.about-text h2 {
-		font-size: 33px;
-	}
+
 	.resume-item .resume-text h3 {
 		font-size: 18px;
 	}
@@ -931,91 +933,6 @@ ol {
 	}
 }
 
-/*
-**************************
-Quick-navigation
-**************************
-*/
-
-
-
-.Quick-navigation {
-  font-family: 'Montserrat', sans-serif;
-  position: fixed;
-  z-index: 999;
-  margin-top: 200px;
-  margin-left: 10px;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-}
-.Quick-navigation-item {
-  color: rgba(0,0,0,0.4);
-  text-decoration: none;
-
-  font-size: 16px;
-  line-height: 20px;
-  -webkit-transition: color 0.3s;
-  transition: color 0.3s;
-  padding: 0.5em;
-  display: block;
-}
-.Quick-navigation-item:hover,
-.Quick-navigation-item.current {
-  color: #000;
-}
-.Scroll-progress-indicator {
-  will-change: opacity, transform;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-
-  position: fixed;
-  right: 70px;
-  top: 0px;
-  font-size: 20;
-
-  border-radius: 2px;
-
-
-  opacity: 0;
-  padding: 2em;
-  -webkit-transform: translateX(200%) translateY(-50%);
-          transform: translateX(200%) translateY(-50%);
-  background-color: transparent;
-}
-.Scroll-progress-indicator.visible {
-  -webkit-transform: translateX(-100%) translateY(-50%);
-          transform: translateX(-100%) translateY(-50%);
-  opacity: 1;
-}
-#K {
-  background-color: #dc143c;
-}
-
-.Scroll-to-top {
-  position: fixed;
-  right: 50px;
-  top: -40px;
-  background-color: transparent;
-  border: none;
-  color: transparent;
-  font-size: 1rem;
-  padding: 0.5em;
-  cursor: pointer;
-  opacity: 0;
-  -webkit-transform: translateY(100%);
-          transform: translateY(100%);
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  outline: none;
-}
-.Scroll-to-top.visible {
-  opacity: 1;
-  -webkit-transform: translateY(0);
-          transform: translateY(0);
-}
-.Scroll-to-top:hover {
-  color: transparent;
-}
 
 
 
