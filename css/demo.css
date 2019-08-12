@@ -64,6 +64,7 @@ main {
 }
 
 a {
+	font-family: 'Rubik', sans-serif;
 	text-decoration: none;
 	color: var(--link-color);
 	outline: none;
@@ -146,8 +147,8 @@ a {
 
 .content-wrap p{
 	font-family: 'Rubik', sans-serif;
-	font-weight: 500px;
-	font-size: 18px;
+	font-weight: 400;
+	font-size: 20px;
 	text-align: center;
 
 }

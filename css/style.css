@@ -504,8 +504,10 @@ ol {
 /* ====================
  portfolio3
 =======================*/
-.portfolio-details3 h1 {
+.portfolio-details3 {
 	font-family: 'Rubik', sans-serif;
+}
+.portfolio-details3 h1 {
 	text-transform: uppercase;
 	color: #e8e8e8;
 	font-size: 30px;
@@ -517,8 +519,6 @@ ol {
 }
 
 .portfolio-details3 h2 {
-
-	font-family: 'Rubik', sans-serif;
 	font-size: 24px;
 	font-weight: 500;
 	text-align: left;
@@ -529,7 +529,6 @@ ol {
 
 .portfolio-details3 h3 {
 	color: #212121;
-	font-family: 'Rubik', sans-serif;
 	font-size: 30px;
 	font-weight: 500;
 	text-align: left;
@@ -544,21 +543,20 @@ ol {
 	color:#1E90FF;
 	text-align: center;
 	font-size: 24px;
-	font-weight: 700;
-	
+	font-weight: 500;	
 	padding-top: 10px;
 	padding-bottom: 10px;
 
 }
 .portfolio-details3 p {
-	font-family: 'Rubik', sans-serif;
 	color: #363636;
-	font-size: 18px;
+	font-size: 22px;
 	line-height: 1.5;
 	text-align: left;
+	font-weight: 400;
 }
 .portfolio-details3 p span {
-	font-weight: 500;
+	font-weight: 400;
 }
 .portfolio-details3 figure img {
 	
