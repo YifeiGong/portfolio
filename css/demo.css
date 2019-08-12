@@ -141,12 +141,13 @@ a {
 	margin: 0;
 	z-index: 10;
 	cursor: default;
+	
 }
 
 .content-wrap p{
-	font-family: 'Rbuik', sans-serif;
+	font-family: 'Rubik', sans-serif;
 	font-weight: 500px;
-	font-size: 16px;
+	font-size: 18px;
 	text-align: center;
 
 }
