@@ -176,7 +176,7 @@
 			tx: 200,
 			ty: 200,
 			fill: {
-				color: '#FFD700',
+				color: '#FFC100',
 				duration: 500,
 				easing: 'linear'
 			},
