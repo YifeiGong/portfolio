@@ -135,7 +135,7 @@ a {
 
 .content-wrap h3{
 	grid-area: title;
-	font-family: 'Montserrat Alternates', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	letter-spacing: -0.025em;
 	font-size: 4em;
 	line-height: 100px;
@@ -224,7 +224,7 @@ a {
 
 .content__title {
 	grid-area: title;
-	font-family: 'Montserrat Alternates', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	letter-spacing: -0.025em;
 	font-size: 4em;
 	line-height: 100px;
