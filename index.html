@@ -30,20 +30,7 @@
 </script>
 
 
-		<script>
-			document.documentElement.className = 'js';
-			var supportsCssVars = function() {
-				var s = document.createElement('style'),
-				support;
 
-				s.innerHTML = "root: { --tmp-var: bold; }";
-				document.head.appendChild(s);
-				support = !!(window.CSS && window.CSS.supports && window.CSS.supports('font-weight', 'var(--tmp-var)'));
-				s.parentNode.removeChild(s);
-				return support;
-			}
-			if (!supportsCssVars()) alert('Please view this demo in a modern browser that supports CSS Variables.')
-		</script>
 	</head>
 
 	<body class="demo-1 loading">
@@ -56,13 +43,14 @@
 			</div>
 			<div class="content content--fixed">
 				<header class="codrops-header">
-					<div class="codrops-links">
+					<!--<div class="codrops-links">
 						<svg class="decoshape" viewBox="0 0 200 100" width="100%" height="100%" preserveAspectRatio="none">
 							<path d="M 10.45,74.41 C 39.4,110.8 72.59,67.27 95.98,68.68 122.3,70.35 131.5,101.4 154.7,99.69 177.9,98.03 200.5,79.26 198.1,47.17 195.9,15.27 174.6,-0.3279 151.8,0.9941 128.6,2.581 126,16.86 107,22.76 88.26,28.67 88.87,12.36 60.37,1.787 31.79,-8.877 -18.61,37.92 10.45,74.41 Z" />
 						</svg>
+
 						
 
-					</div>
+					</div>-->
 					<h1 class="codrops-header__title">Faye Gong</h1>
 
 				<nav class="demos">
@@ -84,6 +72,8 @@
 				<div class="deco deco--title"></div>
 			</div>
 
+
+
 			<div class="content-wrap">
 				
 					
@@ -104,10 +94,12 @@
 			<div class="content-wrap">
 				<div class="content content--layout content--layout-2">
 					<img class="content__img" src="img/hp/bing.png"/>
+					
 					<h3 class="content__title" style="font-weight: 700">Microsoft<br>Bing.com<br>News Mobile </h3>
-					<p class="content__author"></p>
-					<p class="content__desc"></p>
-					<a href="" class="content__link"style="color:#000">Coming Soon</a>
+					
+					
+					<a href="bing.html" class="content__link" style="color:#000">View Project ▶</a>
+				</div>
 				</div>
 			</div>
 			<div class="content-wrap">
@@ -137,48 +129,22 @@
 					<a href="lurie.html" class="content__link" style="color:#000">View Project ▶</a>
 				</div>
 			</div>
+			<div class="content-wrap">
+				<div class="content content--layout content--layout-2">
+					<img class="content__img" src="img/hp/thesis.png"/>
+					<h3 class="content__title" href="lurie.html" style="font-weight: 700">Smart<br> Working <br>& Wellness </h3>
+					<p class="content__author"></p>
+					<p class="content__desc"></p>
+					<a class="content__link" style="color:#000">Coming Soon</a>
+				</div>
+			</div>
 			
 
 			<!-- Related demos -->
-			<section class="content content--related">
+			<section class="content content--related">				
 
-				
-
-			<div class="container">
-    	    <div class="row">
-			    <div class="col-lg-1">
-			    </div>
-	            <div class="col-lg-5">
-	    	    	<h2 style="color:#000000">Hi, I'm Faye Gong<br></h2>
-					<p style="color:#000000">
-As a Product Designer, I'm delivering friendly experience and products based on both Human-Centered Design and Data-driven Design.
-
- 
-<br><br>
-
-I'm studying in the Engineering Design Innovation Master program at Northwestern University, and focusing on Product Design, HCI, and Entrepreneurship. I continuously pursue to bring better user experience into the customer-facing product, service, and business to the users
-
-<br><br>
-by<br>
-# Design Thinking and Human-Centered Design # <br>
-# User Research # <br>
-# Product Design and Management # <br>
-# UX/UI Design and Strategy # <br>
-# Service Design # <br>
-# Agile Development and Lean Validation # <br>
-# Leadership # <br>
-<br>
-<!--Here are some design challenges I did last year!
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>Cheers!-->
-</p></div>
-
-
-
-<div class="col-lg-5"><br><br><br>
-			  <img class="content__img" src="img/play.png"/> 
-	           </div> 
 			</section>
-<br><br><br>
+
 	<!-- Footer section start -->
 	<p style="text-align: center;">All Rights Reserved 2016-2019 @fayegong.xyz</p>
 
