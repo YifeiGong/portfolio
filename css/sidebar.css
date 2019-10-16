@@ -738,7 +738,7 @@ pre {
 
   .scroll-nav {
     margin-left: -15.1041667%;
-    width: 13.5416667%;
+    width: 1/12;
   }
 
   .scroll-nav-heading {
@@ -747,17 +747,17 @@ pre {
   }
 
   .scroll-nav-item {
-    font-size: 19px;
+    font-size: 18px;
     line-height: 1.4em;
     overflow: visible;
     width: auto;
   }
   .scroll-nav-item.active {
-    -webkit-transform: scale(1.2, 1.2);
-    -moz-transform: scale(1.2, 1.2);
-    -ms-transform: scale(1.2, 1.2);
-    -o-transform: scale(1.2, 1.2);
-    transform: scale(1.2, 1.2);
+    -webkit-transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    transform: scale(1, 1);
   }
   .scroll-nav-item:before {
     width: 30px;
