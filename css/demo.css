@@ -15,10 +15,7 @@
 
 body {
 	
-
-	font-family: 'Rubik', sans-serif;
 	font-weight: 500;
-	
 	background-color: #696969;
 	background-color: var(--background-color);
 	-webkit-font-smoothing: antialiased;
@@ -63,13 +60,6 @@ main {
 	overflow: hidden;
 }
 
-a {
-	font-family: 'Rubik', sans-serif;
-	text-decoration: none;
-	color: var(--link-color);
-	outline: none;
-
-}
 
 
 
@@ -128,30 +118,21 @@ a {
 	justify-content: center;
 	align-items: center;
 	width: 100%;
-	height: 100vh;
-	min-height: 600px;
+	min-height: 520px;
 	pointer-events: none;
 }
 
-.content-wrap h3{
-	grid-area: title;
-	font-family: 'Montserrat', sans-serif;
-	letter-spacing: -0.025em;
-	font-size: 4em;
-	line-height: 100px;
-	margin: 0;
-	z-index: 10;
-	cursor: default;
-	
-}
 
 .content-wrap p{
 	font-family: 'Rubik', sans-serif;
 	font-weight: 400;
-	font-size: 20px;
-	text-align: center;
+	font-size: 18px;
+	text-align: left;
 
 }
+
+
+
 .content {
 	position: relative;
 	display: grid;
@@ -189,31 +170,7 @@ a {
 							"author ... link link";
 }
 
-.content--related {
-	text-align: center;
-	align-content: center;
-	justify-content: center;
-	padding: 0 2em;
-	
-	font-size: 0.85em;
-	margin-top: 200px;
-}
 
-.content--related p{
-	text-align: left;
-	font-size:14px;
-	line-height: 1.5;
-    font-family: 'Montserrat', sans-serif;
-
-}
-
-.content--related h2{
-	text-align: left;
-	font-size: 30px;
-	line-height: 1.5;
-	font-family: 'Montserrat', sans-serif;
-
-}
 .content__img {
 	grid-column: 1 / 3;
 	grid-row: 1 / 3;
@@ -223,65 +180,58 @@ a {
 }
 
 .content__title {
+	
 	grid-area: title;
 	font-family: 'Montserrat', sans-serif;
+	
+	margin: 0;
+	z-index: 10;
+	cursor: default;
+	padding: 40px;
+}
+.content__title h3{
+	grid-area: title;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
 	letter-spacing: -0.025em;
-	font-size: 4em;
-	line-height: 100px;
+	font-size: 46px;
+	line-height: 60px;
 	margin: 0;
 	z-index: 10;
 	cursor: default;
+	
 }
 
-.content__author {
-	grid-area: author;
-	margin: 0;
-	-webkit-writing-mode: vertical-lr;
-	writing-mode: vertical-lr;
-	padding: 1em;
-	text-align: right;
-	z-index: 10;
-	cursor: default;
+.content__title p {
+	font-family: 'Rubik', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	text-align: left;
+	color: #808080;
+
 }
 
-.content__desc {
-	grid-area: desc;
-	margin: 0;
-	z-index: 10;
-	padding: 0 -5em;
-	cursor: default;
-}
+
+
+
+
 
 .content__img,
 .content__title,
-.content__author,
-.content__desc {
+.content__author {
+
 	transition: transform 0.3s ease-out;
 }
 
 .content__link {
-	pointer-events: auto;
-	grid-area: link;
-	align-self: end;
-	justify-self: start;
+	font-family: 'Rubik', sans-serif;
+	margin-top: 340px;
+	padding-left: 40px;
+	grid-area: title;
 	z-index: 10;
 	/*padding: 0 1em 0.15em;*/
 }
 
-.content__info {
-	grid-column: 1 / 3;
-}
-
-.content__related-item {
-	padding: 1em;
-	transition: color 0.3s;
-}
-
-.content__related-img {
-	max-width: 100%;
-	opacity: 0.8;
-	transition: opacity 0.3s;
-}
 
 .content__related-item:hover .content__related-img,
 .content__related-item:focus .content__related-img {
@@ -294,69 +244,10 @@ a {
 	padding: 0.5em;
 }
 
-/* Different layouts */
 
-/* layout-2 */
-.content--layout-2 {
-	grid-template-areas:	"... title title title"
-							"desc desc ... author";
-}
-.content--layout-2 .content__title {
-    padding: 0.5em;
 
-}
-.content--layout-2 .content__img {
-	grid-column: 1 / 2;
-	grid-row: 1 / 2;
-}
 
-.content--layout-2 .content__desc {
-	text-align: right;
-}
 
-.content--layout-2 .content__link {
-	justify-self: end;
-}
-
-.content--layout-2 .content__author {
-	justify-self: end;
-	align-self: start;
-}
-
-/* layout-3 */
-.content--layout-3 {
-	grid-template-rows: 75px 75px 150px;
-	grid-template-areas:	"... ... desc desc"
-							"author title title title"
-							"author ... link link";
-}
-
-.content--layout-3 .content__img {
-	grid-column: 1 / 3;
-	grid-row: 1 / 3;
-}
-
-.content--layout-3 .content__desc {
-	align-self: end;
-}
-
-/* layout-4 */
-
-.content--layout-4 {
-	grid-template-areas:	"title title title desc"
-							"... author ... desc"
-							"... author ... link";
-}
-
-.content--layout-4 .content__img {
-	grid-column: 2 / 4;
-	grid-row: 1 / 3;
-}
-
-.content--layout-4 .content__author {
-	justify-self: start;
-	align-self: start;
-}
 
 /* Header */
 .codrops-header {
@@ -389,7 +280,7 @@ a {
 	display: inline-block;
 	position: relative;
 	font-size: 0.85em;
-	margin: 0 0.25em 0.5em 3em;
+	margin: 0 0.25em 0.5em 1em;
 	padding: 1em;
 	color:#a9a9a9;
 }
