@@ -111,19 +111,20 @@ main {
 	flex: none;
 }
 
-.content-wrap {
+.content-wrap1 {
 	position: relative;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	width: 100%;
-	min-height: 520px;
+	margin-top: 160px;
+	min-height: 260px;
 	pointer-events: none;
 }
 
 
-.content-wrap p{
+.content-wrap1 p{
 	font-family: 'Rubik', sans-serif;
 	font-weight: 400;
 	font-size: 18px;
@@ -131,7 +132,17 @@ main {
 
 }
 
-
+.content-wrap {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	
+	min-height: 540px;
+	pointer-events: none;
+}
 
 .content {
 	position: relative;
