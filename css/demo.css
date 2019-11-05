@@ -139,7 +139,7 @@ main {
 	justify-content: center;
 	align-items: center;
 	width: 100%;
-	
+	min-width: 00px;
 	min-height: 540px;
 	pointer-events: none;
 }
@@ -147,6 +147,7 @@ main {
 .content {
 	position: relative;
 	display: grid;
+	
 }
 
 .content--fixed {
