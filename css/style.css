@@ -583,7 +583,8 @@ font-family: 'Rubik', sans-serif;
 .portfolio-details3 p span {
 	font-weight: 400;
 }
-.portfolio-details3 figure img {
+.portfolio-details3 img {
+	width: 100%;
 	
 }
 
