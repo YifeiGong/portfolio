@@ -621,16 +621,19 @@ hr {
 
 
 
-
 .main {
-  margin: 0 auto;
-  
-  padding: 0 4.6875% 0 40%;
   position: relative;
+ 
+ 
+}
+.contain {
+ margin-left: 18%;
+ margin-right: 18%;
 }
 
+
 .scroll-nav {
-  margin-left: -15.625%;
+ 
   position: absolute;
   
   top: 74px;
@@ -732,12 +735,10 @@ pre {
     font-size: 1.2em;
   }
 
-  .main {
-    padding: 0 16.66667%;
-  }
+
 
   .scroll-nav {
-    margin-left: -15.1041667%;
+    
     width: 20%;
   }
 
