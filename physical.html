@@ -1,32 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Physical UX Design - Faye Gong's Portfolio</title>
+		<meta name="description" content="A page background effect where SVG shapes morph and transform on scroll" />
+		<meta name="keywords" content="background, svg, morph, animation, scroll, shape, web development, css, javascript" />
+		<meta name="author" content="Codrops" />
 
-
-<head>
-	<title>Physical Product Design - Faye Gong's Portfolio</title>
-	<meta charset="UTF-8">
-	<meta name="description" content="">
-	<meta name="keywords" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- Favicon -->   
+		<!-- Favicon -->   
 	<link href="img/favicon.png" rel="shortcut icon"/>
+	
 
-	<!-- Google Fonts -->
-<link href="https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates:700&display=swap" rel="stylesheet">
-	<!-- Stylesheets -->
-	<link rel="stylesheet" href="css/bootstrap.min.css"/>
-	<link rel="stylesheet" href="css/font-awesome.min.css"/>
-	<link rel="stylesheet" href="css/themify-icons.css"/>
-	<link rel="stylesheet" href="css/animate.min.css"/>
-	<link rel="stylesheet" href="css/magnific-popup.css"/>
-	<link rel="stylesheet" href="css/owl.carousel.min.css"/>
-	<link rel="stylesheet" href="css/style.css"/>
-			<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:500,700|Rubik:400,500,700&display=swap" rel="stylesheet">
+
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="css/demo.css" />
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
 		<link rel="stylesheet" type="text/css" href="sponsor/pater.css" />
-<!-- Global site tag (gtag.js) - Google Analytics -->
+		<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136104655-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -37,27 +30,33 @@
 </script>
 
 
-	<!--[if lt IE 9]>
-	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-	<![endif]-->
 
-</head>
-<body>
+	</head>
+
 	<body class="demo-1 loading">
 
 		<main>
-
+			<div class="morph-wrap">
+				<svg class="morph" width="1400" height="770" viewBox="0 0 1400 770">
+					<!--<path d="M 262.9,252.2 C 210.1,338.2 212.6,487.6 288.8,553.9 372.2,626.5 511.2,517.8 620.3,536.3 750.6,558.4 860.3,723 987.3,686.5 1089,657.3 1168,534.7 1173,429.2 1178,313.7 1096,189.1 995.1,130.7 852.1,47.07 658.8,78.95 498.1,119.2 410.7,141.1 322.6,154.8 262.9,252.2 Z"/>-->
+				</svg>
+			</div>
 			<div class="content content--fixed">
 				<header class="codrops-header">
-					
+				<div class="codrops-links">
+						<svg class="decoshape" viewBox="0 0 200 100" width="100%" height="100%" preserveAspectRatio="none">
+						<!--	<path d="M 10.45,74.41 C 39.4,110.8 72.59,67.27 95.98,68.68 122.3,70.35 131.5,101.4 154.7,99.69 177.9,98.03 200.5,79.26 198.1,47.17 195.9,15.27 174.6,-0.3279 151.8,0.9941 128.6,2.581 126,16.86 107,22.76 88.26,28.67 88.87,12.36 60.37,1.787 31.79,-8.877 -18.61,37.92 10.45,74.41 Z" />
+						</svg>
+-->			
+
+					</div>
 					<h1 class="codrops-header__title">Faye Gong</h1>
 
 				<nav class="demos">
-					<a class="demo" href="index.html"><svg class="decoshape" preserveAspectRatio="none"><use xlink:href="#shape-demo"></use></svg>Home</a>
+					<a class="demo demo" href="index.html"><svg class="decoshape" preserveAspectRatio="none"><use xlink:href="#shape-demo"></use></svg>Home</a>
 
-					<a class="demo demo--current" href="work.html"><svg class="decoshape"><use xlink:href="#shape-demo"></use></svg>Work</a>
 					<a class="demo" href="aboutme.html"><svg class="decoshape"><use xlink:href="#shape-demo"></use></svg>About Me</a>
+					
 					<a class="demo" href="Resume_FayeYifeiGong_UX.pdf" target="blank"><svg class="decoshape"><use xlink:href="#shape-demo"></use></svg>Resume</a>
 				</nav>
 
@@ -90,43 +89,18 @@
 			<div class="portfolio-warp">
 
 				<div class="row isotope_items">
-					
-					
-				
-						
 
-										<div class="col-lg-4 col-md-6 phys">
-						<a class="work-item" href="">
-							<img src="img/works/pat.png" width="100%">
+					<div class="col-lg-4 col-md-6 phys">
+						<a class="work-item" href="xia.html">
+							<img src="img/works/xia.png" width="100%">
 							<i class="ti-link"></i>
 							<div class="work-info">
-								<h3><span>Pat</span></h3>
-								<p><span>IoT for Aging Population</span></p>
-							</div>
-						</a>
-					</div>	
-			
-					<div class="col-lg-4 col-md-6">
-						<a class="work-item" href="">
-							<img src="img/works/pg.png" width="100%">
-							<i class="ti-link"></i>
-							<div class="work-info">
-								<h3><span>P&G</span></h3>
-								<p><span>Consumer Packaged Goods</span></p>
+								<h3><span>XIA</span></h3>
+								<p><span>Building Healthier Sitting and Working</span></p>
 							</div>
 						</a>
 					</div>
-										<div class="col-lg-4 col-md-6 phys">
-						<a class="work-item" href="">
-							<img src="img/works/loooop.png" width="100%">
-							<i class="ti-link"></i>
-							<div class="work-info">
-								<h3><span>Loooop</span></h3>
-								<p><span>Interactive Art Installation</span></p>
-							</div>
-						</a>
-					</div>
-					<!-- item -->
+
 					<div class="col-lg-4 col-md-6 phys">
 						<a class="work-item" href="">
 							<img src="img/works/maat.png" width="100%">
@@ -137,8 +111,80 @@
 							</div>
 						</a>
 					</div>
+
+					<div class="col-lg-4 col-md-6 phys">
+						<a class="work-item" href="">
+							<img src="img/works/gaia.png" width="100%">
+							<i class="ti-link"></i>
+							<div class="work-info">
+								<h3><span>Gaia</span></h3>
+								<p><span>Autism Meltdown Management</span></p>
+							</div>
+						</a>
+					</div>
+
+
+
+					<div class="col-lg-4 col-md-6 phys">
+						<a class="work-item" href="">
+							<img src="img/works/pat.png" width="100%">
+							<i class="ti-link"></i>
+							<div class="work-info">
+								<h3><span>Pat</span></h3>
+								<p><span>IoT for Aging Population</span></p>
+							</div>
+						</a>
+					</div>	
+			
+					
+										<div class="col-lg-4 col-md-6 phys">
+						<a class="work-item" href="">
+							<img src="img/works/loooop.png" width="100%">
+							<i class="ti-link"></i>
+							<div class="work-info">
+								<h3><span>Loooop</span></h3>
+								<p><span>Interactive Art Installation</span></p>
+							</div>
+						</a>
+					</div>
+
 					<!-- item -->
-					<div class="col-lg-4 col-md-6">
+					<div class="col-lg-4 col-md-6 phys">
+						<a class="work-item" href="nip.html">
+							<img src="img/works/nip0.png" width="100%">
+							<i class="ti-link"></i>
+							<div class="work-info">
+								<h3><span>Nip</span></h3>
+								<p><span>Mix Reality Device for Road Trip</span></p>
+							</div>
+						</a>
+					</div>
+					<!-- item -->
+
+
+					<div class="col-lg-4 col-md-6 phys">
+						<a class="work-item" href="">
+							<img src="img/works/darnit.png" width="100%">
+							<i class="ti-link"></i>
+							<div class="work-info">
+								<h3><span>Darn It!</span></h3>
+								<p><span>Angry Speaker</span></p>
+							</div>
+						</a>
+					</div>	
+
+					<!--<div class="col-lg-4 col-md-6">
+						<a class="work-item" href="">
+							<img src="img/works/pg.png" width="100%">
+							<i class="ti-link"></i>
+							<div class="work-info">
+								<h3><span>P&G</span></h3>
+								<p><span>Consumer Packaged Goods</span></p>
+							</div>
+						</a>
+					</div>
+
+										<div class="col-lg-4 col-md-6">
 						<a class="work-item" href="">
 							<img src="img/works/dr.png" width="100%">
 							<i class="ti-link"></i>
@@ -172,17 +218,7 @@
 							</div>
 						</a>
 					</div>	
-
-					<div class="col-lg-4 col-md-6 phys">
-						<a class="work-item" href="">
-							<img src="img/works/darnit.png" width="100%">
-							<i class="ti-link"></i>
-							<div class="work-info">
-								<h3><span>Darn It!</span></h3>
-								<p><span>IoT</span></p>
-							</div>
-						</a>
-					</div>	
+				-->
 
 
 
