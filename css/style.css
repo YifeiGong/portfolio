@@ -510,20 +510,20 @@ font-family: 'Rubik', sans-serif;
  portfolio3
 =======================*/
 .portfolio-title {
-	padding: 100px 200px 60px 200px;
+	padding: 100px 0px 60px 40px;
 
 
 }
 
 .portfolio-title h1 {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 60px;
+	font-size: 56px;
 	font-weight: 700;
 	color: #fff;
 }
 .portfolio-title h3 {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 30px;
+	font-size: 16px;
 	font-weight: 500;
 	color: #000;
 }
