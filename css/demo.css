@@ -56,9 +56,6 @@ body {
 
 
 
-
-
-
 .hidden {
 	position: absolute;
 	overflow: hidden;
@@ -125,7 +122,7 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
 	font-size: 18px;
-	
+	letter-spacing: -0.025em;
 
 }
 
@@ -193,7 +190,7 @@ body {
 	font-weight: 600;
 	letter-spacing: -0.025em;
 	font-size: 46px;
-	line-height: 56px;
+	line-height: 46px;
 	margin: 0;
 	z-index: 10;
 	cursor: default;
@@ -202,10 +199,23 @@ body {
 	
 }
 
-.content__title p {
-	margin-top: 10px;
+.content__title h4 {
+	margin-top: 8px;
 	font-family: 'Rubik', sans-serif;
+	letter-spacing: -0.025em;
 	font-weight: 400;
+	font-size: 20px;
+	text-align: left;
+	color: #353535;
+	width: 500px;
+	text-align:justify;
+
+}
+
+.content__title p {
+	margin-top: 24px;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 300;
 	font-size: 16px;
 	text-align: left;
 	color: #A9A9A9;
@@ -266,6 +276,7 @@ body {
 	position: relative;
 	font-family: 'Montserrat', sans-serif;
 	margin: 1em 3em 1em 0em;
+	letter-spacing: -0.025em;
 	font-size: 14px;
 	color:#a9a9a9;
 }
