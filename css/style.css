@@ -510,32 +510,50 @@ font-family: 'Rubik', sans-serif;
  portfolio3
 =======================*/
 .portfolio-title {
-	padding: 100px 0px 60px 40px;
+	padding: 100px 0px 60px 80px;
 
 
 }
 
 .portfolio-title h1 {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 56px;
+	font-size: 36px;
 	font-weight: 700;
 	color: #fff;
 }
 .portfolio-title h3 {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 16px;
-	font-weight: 500;
+	font-size: 46px;
+	font-weight: 700;
 	color: #000;
 }
 
 .portfolio-title h5 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
-	font-weight: 500;
-	color: #fff;
+	font-weight: 700;
+	color: #000;
 	line-height: 1.5;
 
 }
+.portfolio-title p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	color: #696969;
+	line-height: 1.5;
+
+}
+
+.portfolio-title p span{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	color: #696969;
+	line-height: 1.5;
+
+}
+
 
 .portfolio-details3 {
 	font-family: 'Rubik', sans-serif;
