@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Hardware UX Design - Faye Gong's Portfolio</title>
+		<title>Projects - Faye Gong's Portfolio</title>
 		<meta name="description" content="A page background effect where SVG shapes morph and transform on scroll" />
 		<meta name="keywords" content="background, svg, morph, animation, scroll, shape, web development, css, javascript" />
 		<meta name="author" content="Codrops" />
@@ -49,10 +49,12 @@
 
 					<!--<h1 class="codrops-header__title">Faye Gong</h1>-->
 				<nav class="demos">
-					<a class="demo" href="physical.html">FAYE GONG</a>
-					<a class="demo" href="projects.html">Projects</a>
+					<a class="demo" href="index.html">FAYE GONG</a>
+					
+					<a class="demo demo--current" href="projects.html">Projects</a>
 
-					<a class="demo" href="about.html">About Me</a>
+					<a class="demo" href="aboutme.html">About Me</a>
+					
 					
 					<a class="demo" href="Faye Yifei Gong_HardwareUX_Resume.pdf" target="blank">Resume</a>
 					<a class="demo" href="https://www.linkedin.com/in/yfgong/?locale=en_US" target="blank">Linkedin</a>
@@ -63,35 +65,7 @@
 			
 			</div>
 
-
-
-
 	<!-- Portfolio section start -->
-				<div class="content-wrap1">
-				
-					
-					
-					
-						<p style="color: #A9A9A9;">
-							<span style="color: #000; font-size: 24px;">
-						    Hi, I am Faye Gong, a Hardware Interaction Designer,<br>
-						   
-Exploring the in-betweens of physical and digital interactions to build delightful experiences for connected products.</span><br>
-						    
-							<br>
-
-
-							Studying Human-centered Design at Northwestern University. <br>Seeking full-time design opportunities starting in 2020. Previously at Microsoft. 
-
-
-								<br><br>
-								
-							</p>
-					
-
-				
-			</div>
-
 	<section class="portfolio-section spad" id="works">
 		<div class="sp-container">
 			<div class="section-title">
@@ -100,14 +74,30 @@ Exploring the in-betweens of physical and digital interactions to build delightf
 				
 			</div>
 
-			
 
 
 			
 			<div class="portfolio-warp">
-
+				<ul class="portfolio-filter">
+					<li class="filter active" data-filter="*">All Works</li>
+					<li class="filter" data-filter=".digi">Digital UX</li>
+					<li class="filter" data-filter=".phys">Hardware IoT UX</li>
+					<li class="filter" data-filter=".prod">Product Management</li>					
+					
+				</ul>
 				<div class="row isotope_items">
+					<div class="col-lg-4 col-md-6 digi">
+						<a class="work-item" href="bing.html">
+							<img src="img/works/bing.png" width="100%">
+							<i class="ti-link"></i>
+							<div class="work-info">
+								<h3><span>Bing News</span></h3>
+								<p><span>Mobile Content Personalization</span></p>
+							</div>
+						</a>
+					</div>
 
+				
 					<div class="col-lg-4 col-md-6 phys">
 						<a class="work-item" href="xia.html">
 							<img src="img/works/xia.png" width="100%">
@@ -119,6 +109,18 @@ Exploring the in-betweens of physical and digital interactions to build delightf
 						</a>
 					</div>
 
+					<div class="col-lg-4 col-md-6 digi">
+						<a class="work-item" href="ss.html">
+							<img src="img/works/ss.png" width="100%">
+							<i class="ti-link"></i>
+							<div class="work-info">
+								<h3><span>Step*Step</span></h3>
+								<p><span>Autism Social Training</span></p>
+							</div>
+						</a>
+					</div>
+
+
 					<div class="col-lg-4 col-md-6 phys">
 						<a class="work-item" href="coucou.html">
 							<img src="img/works/coucou.png" width="100%">
@@ -129,6 +131,28 @@ Exploring the in-betweens of physical and digital interactions to build delightf
 							</div>
 						</a>
 					</div>
+
+					<div class="col-lg-4 col-md-6 prod">
+						<a class="work-item" href="teamie.html">
+							<img src="img/works/teamie.png" width="100%">
+							<i class="ti-link"></i>
+							<div class="work-info">
+								<h3><span>teamie</span></h3>
+								<p><span>One Stop Team Building</span></p>
+							</div>
+						</a>
+					</div>	
+
+					<div class="col-lg-4 col-md-6 digi">
+						<a class="work-item" href="lurie.html">
+							<img src="img/works/lurie.png" width="100%">
+							<i class="ti-link"></i>
+							<div class="work-info">
+								<h3><span>ExpressLu</span></h3>
+								<p><span>Hospital Check-in Service</span></p>
+							</div>
+						</a>
+					</div>					
 					
 					<div class="col-lg-4 col-md-6 phys">
 						<a class="work-item" href="loooop.html">
@@ -141,12 +165,29 @@ Exploring the in-betweens of physical and digital interactions to build delightf
 						</a>
 					</div>
 
-					
+					<div class="col-lg-4 col-md-6 digi">
+						<a class="work-item" href="afc.html">
+							<img src="img/works/afc.png" width="100%">
+							<i class="ti-link"></i>
+							<div class="work-info">
+								<h3><span>VFact</span></h3>
+								<p><span>Fact-checking for Videos</span></p>
+							</div>
+						</a>
+					</div>
 
+					<div class="col-lg-4 col-md-6 digi">
+						<a class="work-item" href="duo.html">
+							<img src="img/works/duo.png" width="100%">
+							<i class="ti-link"></i>
+							<div class="work-info">
+								<h3><span>DUO</span></h3>
+								<p><span>Product Landing Page</span></p>
+							</div>
+						</a>
+					</div>											
 
-
-
-<div class="col-lg-4 col-md-6 phys">
+					<div class="col-lg-4 col-md-6 phys">
 						<a class="work-item" href="maat.html">
 							<img src="img/works/maat.png" width="100%">
 							<i class="ti-link"></i>
@@ -156,6 +197,30 @@ Exploring the in-betweens of physical and digital interactions to build delightf
 							</div>
 						</a>
 					</div>
+
+					<div class="col-lg-4 col-md-6 prod">
+						<a class="work-item" href="sdjg.html">
+							<img src="img/works/sdjg.png" width="100%">
+							<i class="ti-link"></i>
+							<div class="work-info">
+								<h3><span>Sunlands</span></h3>
+								<p><span>Online Self-study Education</span></p>
+							</div>
+						</a>
+					</div>
+
+					<div class="col-lg-4 col-md-6 prod">
+						<a class="work-item" href="qyer.html">
+							<img src="img/works/qyer.png" width="100%">
+							<i class="ti-link"></i>
+							<div class="work-info">
+								<h3><span>Qyer</span></h3>
+								<p><span>Online Tourism</span></p>
+							</div>
+						</a>
+					</div>
+
+
 					<div class="col-lg-4 col-md-6 phys">
 						<a class="work-item" href="pat.html">
 							<img src="img/works/pat.png" width="100%">
@@ -187,69 +252,9 @@ Exploring the in-betweens of physical and digital interactions to build delightf
 
 
 
-					<!--<div class="col-lg-4 col-md-6">
-						<a class="work-item" href="">
-							<img src="img/works/pg.png" width="100%">
-							<i class="ti-link"></i>
-							<div class="work-info">
-								<h3><span>P&G</span></h3>
-								<p><span>Consumer Packaged Goods</span></p>
-							</div>
-						</a>
-					</div>
-
-					<div class="col-lg-4 col-md-6 phys">
-						<a class="work-item" href="nip.html">
-							<img src="img/works/nip0.png" width="100%">
-							<i class="ti-link"></i>
-							<div class="work-info">
-								<h3><span>Nip</span></h3>
-								<p><span>Mix Reality Device for Road Trip</span></p>
-							</div>
-						</a>
-					</div>
-
-										<div class="col-lg-4 col-md-6">
-						<a class="work-item" href="">
-							<img src="img/works/dr.png" width="100%">
-							<i class="ti-link"></i>
-							<div class="work-info">
-								<h3><span>Design Research</span></h3>
-								<p><span>Entrepreneurs & Accelerators</span></p>
-							</div>
-						</a>
-					</div>
-					
-
-
-					
-	
-
-
-							
-						
-					
-										
-					
-
-
-					<div class="col-lg-4 col-md-6">
-						<a class="work-item" href="">
-							<img src="img/works/perma.png" width="100%">
-							<i class="ti-link"></i>
-							<div class="work-info">
-								<h3><span>Perma</span></h3>
-								<p><span>Service + Product Design</span></p>
-							</div>
-						</a>
-					</div>	
-				-->
-
-
 
 					
 
-												
 				</div>
 			</div>
 			
