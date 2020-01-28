@@ -115,10 +115,7 @@ main {
 
 	margin-top: 200px;
 	margin-bottom: 200px;
-	display: flex;
-	
-	align-items: center;
-	justify-content: center;
+	text-align: left;
 
 	
 }
@@ -175,24 +172,23 @@ main {
 
 .content__title {
 	
-	
 	font-family: 'Montserrat', sans-serif;
 	margin: 0;
 	z-index: 10;
 	cursor: default;
-	padding-left: 40px;
+	
 }
 .content__title h3{
 	
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 600;
 	letter-spacing: -0.025em;
-	font-size: 46px;
+	font-size: 42px;
 	line-height: 46px;
 	margin: 0;
 	z-index: 10;
 	cursor: default;
-	width: 500px;
+	
 	color: #353535;
 	
 }
@@ -205,7 +201,7 @@ main {
 	font-size: 20px;
 	text-align: left;
 	color: #353535;
-	width: 500px;
+	
 	text-align:justify;
 
 }
@@ -217,7 +213,7 @@ main {
 	font-size: 16px;
 	text-align: left;
 	color: #A9A9A9;
-	width: 500px;
+	
 	text-align:justify;
 
 }
@@ -237,7 +233,7 @@ main {
 .content__link {
 	font-family: 'Rubik', sans-serif;
 	
-	padding-left: 40px;
+	
 	
 	z-index: 10;
 	/*padding: 0 1em 0.15em;*/
