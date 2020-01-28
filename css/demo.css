@@ -113,10 +113,8 @@ main {
 
 .content-wrap1 {
 
-	position: relative;
-	display: flex;
-	padding: 200px 200px 0px 0px;
-	
+	margin-top: 200px;
+	margin-bottom: 200px;
 	text-align: left;
 	margin-left: 10%;
 
@@ -133,20 +131,17 @@ main {
 }
 
 .content-wrap {
-	position: relative;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	width: 100%;
 	
-	min-height: 540px;
+	
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 20px;
 	pointer-events: none;
 }
 
 .content {
 	position: relative;
-	display: grid;
+	
 	
 }
 
@@ -172,12 +167,12 @@ main {
 .content__img {
 	
 	opacity: 1;
-	margin-left: 10%;
+	
 	width: 100%;
 }
 
 .content__title {
-	
+	margin-right: 10%;
 	
 	font-family: 'Montserrat', sans-serif;
 	margin: 0;
@@ -252,11 +247,7 @@ main {
 	opacity: 1;
 }
 
-.content__related-title {
-	font-size: 1em;
-	margin: 0;
-	padding: 0.5em;
-}
+
 
 
 
