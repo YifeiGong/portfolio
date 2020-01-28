@@ -631,6 +631,10 @@ hr {
  margin-right: 18%;
 }
 
+.contain img {
+  width: 100%;
+ 
+}
 
 .scroll-nav {
  
