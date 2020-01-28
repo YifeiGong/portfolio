@@ -31,6 +31,8 @@ img {
 }
 a {
 	color:#fff;
+	pointer-events: auto;
+
 }
 ul,
 ol {
@@ -277,7 +279,123 @@ font-family: 'Rubik', sans-serif;
 	-o-transition: all 0.4s ease 0s;
 	transition: all 0.4s ease 0s;
 }
+/* ====================
+hometitle
+=======================*/
+.homefixed {
+	position: fixed;
+	top: 0;
+	z-index: 10000;				
+}
 
+.home {
+	display: inline-block;
+	position: relative;
+	font-family: 'Montserrat', sans-serif;
+	margin: 1em 2em 1em 0em;
+	letter-spacing: -0.025em;
+	font-size: 14px;
+	color:#a9a9a9;
+
+}
+
+
+
+.home:hover{
+	color:#000;
+}
+
+.home .decoshape {
+	display: none;
+}
+
+.homecurrent {
+	color: #000;
+	border-color: currentColor;
+}
+
+.homecurrent .decoshape {
+	display: block;
+	z-index: -1;
+}
+
+.homecontent {
+	margin-top: 200px;
+	margin-bottom: 200px;
+	text-align: left;
+	
+	
+}
+.homecontent p{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	letter-spacing: -0.025em;
+	color: #A9A9A9;
+}
+.homecontent span{
+	color: #000; 
+	font-size: 22px;
+
+} 
+/* ====================
+homewrap
+=======================*/
+.wrap {
+	
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.wrapframe {
+	cursor: pointer;
+	margin-top: 80px;
+}
+.wrap img {
+	width: 100%;
+}
+.wrap a:hover {
+	text-decoration: none;
+
+}
+.wraptitle {
+	
+	font-family: 'Rubik', sans-serif;
+	margin: 0;
+	z-index: 10;
+	cursor: pointer;
+}
+
+.wraptitle h3{
+	
+	font-weight: 500;
+	
+	font-size: 36px;
+	line-height: 36px;
+	margin: 0;
+	z-index: 10;
+	color: #353535;
+}
+.wraptitle h4 {
+	
+	
+	font-weight: 400;
+	font-size: 20px;
+	text-align: left;
+	color: #353535;
+	text-align:justify;
+
+}
+
+.wraptitle p {
+	margin-top: 10px;
+	font-weight: 300;
+	font-size: 18px;
+	text-align: left;
+	color: #A9A9A9;
+	text-align:left;
+
+}
 
 /* ====================
  portfolio3
@@ -469,6 +587,11 @@ font-family: 'Rubik', sans-serif;
 /* Tablet :768px. */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+		.contain {
+ margin-left: 25%;
+ margin-right: 25%;
+}
+
 	.hero-section {
 		height: 900px;
 	}

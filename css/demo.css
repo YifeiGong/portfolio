@@ -111,27 +111,10 @@ main {
 
 
 
-.content-wrap1 {
-
-	margin-top: 200px;
-	margin-bottom: 200px;
-	text-align: left;
-	display: flex;
-	align-items: center;
-	justify-content: center;
 
 
-	
-}
 
 
-.content-wrap1 p{
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 400;
-	font-size: 18px;
-	letter-spacing: -0.025em;
-
-}
 
 .content-wrap {
 	
@@ -148,14 +131,7 @@ main {
 	
 }
 
-.content--fixed {
-	position: fixed;
-	
-	top: 0;
-	z-index: 10000;
 
-							
-}
 
 .content--fixed a {
 	pointer-events: auto;
@@ -183,7 +159,7 @@ main {
 	
 }
 .content__title h3{
-	
+
 	
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 600;
@@ -259,40 +235,7 @@ main {
 
 
 
-/* Demos */
-.demos {
-	grid-area: demos;
-	align-self: end;
-	
-}
 
-.demo {
-	display: inline-block;
-	position: relative;
-	font-family: 'Montserrat', sans-serif;
-	margin: 1em 3em 1em 0em;
-	letter-spacing: -0.025em;
-	font-size: 14px;
-	color:#a9a9a9;
-}
-
-.demo:hover{
-	color:#000;
-}
-
-.demo .decoshape {
-	display: none;
-}
-
-.demo--current {
-	color: #000;
-	border-color: currentColor;
-}
-
-.demo--current .decoshape {
-	display: block;
-	z-index: -1;
-}
 
 
 
