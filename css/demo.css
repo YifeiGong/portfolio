@@ -172,7 +172,8 @@ main {
 .content__img {
 	
 	opacity: 1;
-	height: 360px;
+	margin-left: 10%;
+	width: 100%;
 }
 
 .content__title {
