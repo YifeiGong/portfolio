@@ -22,8 +22,8 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 main {
-	margin-left: 20%;
-	margin-right: 20%;
+
+
 }
 
 /* Page Loader */
@@ -109,7 +109,10 @@ main {
 }
 
 
-
+.frame {
+	margin-left: 200px;
+	margin-right: 200px;
+}
 .content-wrap1 {
 	position: relative;
 	display: flex;
@@ -162,8 +165,8 @@ main {
 
 .content--layout {
 	pointer-events: auto;
-	justify-content: left;
-	align-content: left;
+	justify-content: center;
+	align-content: center;
 	
 	grid-template-rows: 150px 75px 75px;
 	grid-template-areas:	"... title title title"
