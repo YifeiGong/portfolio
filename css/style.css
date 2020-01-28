@@ -282,6 +282,11 @@ font-family: 'Rubik', sans-serif;
 /* ====================
  portfolio3
 =======================*/
+.contain {
+ margin-left: 15%;
+ margin-right: 15%;
+}
+
 .portfolio-title {
 	padding: 100px 0px 60px 80px;
 
