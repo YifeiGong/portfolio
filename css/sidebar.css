@@ -633,7 +633,7 @@ hr {
 
 .contain img {
   width: 100%;
- 
+ height: auto;
 }
 
 .scroll-nav {
