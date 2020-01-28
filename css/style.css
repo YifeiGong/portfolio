@@ -401,8 +401,8 @@ homewrap
  portfolio3
 =======================*/
 .contain {
- margin-left: 15%;
- margin-right: 15%;
+ margin-left: 20%;
+ margin-right: 20%;
 }
 
 .portfolio-title {
@@ -560,14 +560,37 @@ homewrap
 	Responsive
 ----------------------*/
 
-/* Medium screen : 992px. */
-
-@media only screen and (min-width: 992px) and (max-width: 5000px) {
+/* Large screen : px. */
+s
+@media only screen and (min-width: 1441px) and (max-width: 2560px) {
+		.contain {
+ margin-left: 30%;
+ margin-right: 30%;
+}
 .wrap {
 	
 	margin-left: 30%;
 	margin-right: 30%;
 }
+	.single-progress-item {
+		margin-bottom: 35px;
+	}
+	.sp-container {
+		width: 100%;
+		margin-left: 0;
+	}
+	.portfolio-filter {
+		transform: rotate(0deg);
+		margin-top: 0;
+		margin-left: 0;
+		position: relative;
+		padding-bottom: 25px;
+	}
+}
+
+/* Medium screen : 992px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1440px) {
 
 	.single-progress-item {
 		margin-bottom: 35px;
@@ -589,8 +612,8 @@ homewrap
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 		.contain {
- margin-left: 25%;
- margin-right: 25%;
+ margin-left: 15%;
+ margin-right: 15%;
 }
 
 	.hero-section {
