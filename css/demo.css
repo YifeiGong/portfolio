@@ -116,6 +116,9 @@ main {
 	margin-top: 200px;
 	margin-bottom: 200px;
 	text-align: left;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 
 	
 }
