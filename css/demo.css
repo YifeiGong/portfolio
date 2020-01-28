@@ -165,25 +165,19 @@ main {
 
 .content--layout {
 	pointer-events: auto;
-	justify-content: center;
-	align-content: center;
 	
-	grid-template-rows: 150px 75px 75px;
-	grid-template-areas:	"... title title title"
-							"author ... desc desc"
-							"author ... link link";
 }
 
 
 .content__img {
-	margin-left: 10%;
+	
 	opacity: 1;
 	height: 360px;
 }
 
 .content__title {
 	
-	grid-area: title;
+	
 	font-family: 'Montserrat', sans-serif;
 	margin: 0;
 	z-index: 10;
@@ -191,7 +185,7 @@ main {
 	padding-left: 40px;
 }
 .content__title h3{
-	grid-area: title;
+	
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 600;
 	letter-spacing: -0.025em;
@@ -244,9 +238,9 @@ main {
 
 .content__link {
 	font-family: 'Rubik', sans-serif;
-	margin-top: 340px;
+	
 	padding-left: 40px;
-	grid-area: title;
+	
 	z-index: 10;
 	/*padding: 0 1em 0.15em;*/
 }
