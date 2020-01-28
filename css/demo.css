@@ -109,11 +109,11 @@ main {
 }
 
 
-.frame {
-	margin-left: 20%;
-	margin-right: 20%;
-}
+
+
 .content-wrap1 {
+	margin-left: 10%;
+	
 	position: relative;
 	display: flex;
 	padding: 200px 200px 0px 0px;
@@ -155,6 +155,8 @@ main {
 	position: fixed;
 	top: 0;
 	z-index: 10000;
+	margin-left: 10%;
+	
 
 							
 }
@@ -178,7 +180,8 @@ main {
 .content__img {
 	
 	opacity: 1;
-	height: 360px;
+	margin-left: 20%
+	width: 50%;
 }
 
 .content__title {
