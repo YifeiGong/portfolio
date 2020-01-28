@@ -396,7 +396,7 @@ table {
 
 figure img {
   width: 100%;
-  height: auto;
+  height: 100%;
   display: block;
 }
 
@@ -633,7 +633,7 @@ hr {
 
 .contain img {
   width: 100%;
- height: auto;
+  height: 100%;
 }
 
 .scroll-nav {
