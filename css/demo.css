@@ -149,7 +149,7 @@ main {
 
 .content--fixed {
 	position: fixed;
-	margin-left: 10%;
+	
 	top: 0;
 	z-index: 10000;
 
@@ -174,7 +174,7 @@ main {
 }
 
 .content__title {
-	margin-right: 10%;
+	
 	
 	font-family: 'Montserrat', sans-serif;
 	margin: 0;
