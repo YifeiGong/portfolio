@@ -192,10 +192,8 @@ font-family: 'Rubik', sans-serif;
 }
 
 .sp-container {
-	width: 70%;
-	margin-left: 15%;
-	padding-left: 15px;
-	padding-right: 15px;
+	width: 100%;
+	
 }
 
 .portfolio-filter {
