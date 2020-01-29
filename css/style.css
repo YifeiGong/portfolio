@@ -32,8 +32,10 @@ img {
 a {
 	color:#fff;
 	pointer-events: auto;
+	
 
 }
+
 ul,
 ol {
 	padding: 0;
@@ -357,6 +359,11 @@ homewrap
 	text-decoration: none;
 
 }
+.wrap a:focus {
+	outline: none;
+
+}
+
 .wraptitle {
 	font-family: 'Rubik', sans-serif;
 	margin: 0;
@@ -385,11 +392,12 @@ homewrap
 
 .wraptitle p {
 	margin-top: 10px;
-	font-weight: 400;
+	font-weight: 300;
 	font-size: 18px;
-	line-height: 22px;
+	line-height: 24px;
 	text-align: left;
 	color: #C0C0C0;
+	letter-spacing: 0.025em;
 
 }
 
