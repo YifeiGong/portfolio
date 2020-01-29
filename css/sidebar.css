@@ -691,7 +691,7 @@ hr {
 .scroll-nav-link {
   display: block;
   margin: 0 auto;
-  padding-left: 42px;
+  margin-left: 42px;
 }
 
 
@@ -760,7 +760,7 @@ pre {
   }
 
   .scroll-nav-link {
-    padding-left: 30px;
+    margin-left: 30px;
   }
 
 
