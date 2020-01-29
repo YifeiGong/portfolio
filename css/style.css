@@ -348,7 +348,7 @@ homewrap
 
 .wrapframe {
 	cursor: pointer;
-	margin-top: 80px;
+	margin-top: 100px;
 }
 .wrap img {
 	width: 100%;
@@ -366,10 +366,8 @@ homewrap
 }
 
 .wraptitle h3{
-	
 	font-weight: 500;
-	
-	font-size: 36px;
+	font-size: 32px;
 	line-height: 36px;
 	margin: 0;
 	z-index: 10;
@@ -388,11 +386,11 @@ homewrap
 
 .wraptitle p {
 	margin-top: 10px;
-	font-weight: 300;
+	font-weight: 400;
 	font-size: 18px;
+	line-height: 22px;
 	text-align: left;
-	color: #A9A9A9;
-	text-align:left;
+	color: #C0C0C0;
 
 }
 
