@@ -410,20 +410,21 @@ homewrap
 }
 
 .portfolio-title {
-	padding: 100px 0px 60px 80px;
+	padding: 100px 0px 60px 0px;
 
 
 }
 
 .portfolio-title h1 {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 36px;
+	font-size: 26px;
 	font-weight: 700;
 	color: #fff;
+	margin-top: 15px;
 }
 .portfolio-title h3 {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 46px;
+	font-size: 40px;
 	font-weight: 700;
 	color: #000;
 }
