@@ -176,9 +176,9 @@ font-family: 'Rubik', sans-serif;
 
 
 .work-item {
-	display: block;
+	
 	margin-bottom: 30px;
-	position: relative;
+	
 }
 
 .work-item img {
@@ -397,6 +397,73 @@ homewrap
 	line-height: 24px;
 	text-align: left;
 	color: #C0C0C0;
+	letter-spacing: 0.025em;
+
+}
+/* ====================
+projectwrap
+=======================*/
+.projectwrap {
+	
+	
+}
+
+.projectwrapframe {
+	cursor: pointer;
+	margin-bottom: 100px;
+}
+.projectwrap img {
+	width: 100%;
+}
+.projectwrap a {
+	text-decoration: none;
+	color: #A9A9A9;
+
+}
+
+.projectwrap a:hover {
+	text-decoration: none;
+	color: #A9A9A9;
+
+}
+.projectwrap a:focus {
+	outline: none;
+
+}
+
+.projectwraptitle {
+	font-family: 'Rubik', sans-serif;
+	margin: 0;
+	z-index: 10;
+	cursor: pointer;
+}
+
+.projectwraptitle h3{
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	margin: 0;
+	z-index: 10;
+	color: #353535;
+}
+.projectwraptitle h4 {
+	
+	
+	font-weight: 400;
+	font-size: 20px;
+	text-align: left;
+	color: #353535;
+	text-align:justify;
+
+}
+
+.wraptitle p {
+	margin-top: 10px;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 18px;
+	text-align: left;
+	color: #A9A9A9;
 	letter-spacing: 0.025em;
 
 }
