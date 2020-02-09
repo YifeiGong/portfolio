@@ -342,7 +342,7 @@ hometitle
 /* ====================
 homewrap
 =======================*/
-.wrap {
+.wraphome {
 	
 	margin-left: 20%;
 	margin-right: 20%;
@@ -352,7 +352,27 @@ homewrap
 	cursor: pointer;
 	margin-bottom: 100px;
 }
+.wraphome img {
+	margin-top: 0;
+	float:left;
+	width: 50%;
+}
+.wraphome a:hover {
+	text-decoration: none;
+
+}
+.wraphome a:focus {
+	outline: none;
+
+}
+
+.wrap {
+	
+	margin-left: 20%;
+	margin-right: 20%;
+}
 .wrap img {
+	
 	width: 100%;
 }
 .wrap a:hover {
@@ -363,6 +383,7 @@ homewrap
 	outline: none;
 
 }
+
 
 .wraptitle {
 	font-family: 'Rubik', sans-serif;
@@ -394,6 +415,43 @@ homewrap
 	margin-top: 10px;
 	font-weight: 300;
 	font-size: 18px;
+	line-height: 24px;
+	text-align: left;
+	color: #C0C0C0;
+	letter-spacing: 0.025em;
+
+}
+
+.wraphometitle {
+	font-family: 'Rubik', sans-serif;
+	margin: 0;
+	z-index: 10;
+	cursor: pointer;
+}
+
+.wraphometitle h3{
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 44px;
+	margin: 0;
+	z-index: 10;
+	color: #353535;
+}
+.wraphometitle h4 {
+	
+	
+	font-weight: 400;
+	font-size: 20px;
+	text-align: left;
+	color: #353535;
+	text-align:justify;
+
+}
+
+.wraphometitle p {
+	margin-top: 40px;
+	font-weight: 300;
+	font-size: 20px;
 	line-height: 24px;
 	text-align: left;
 	color: #C0C0C0;
