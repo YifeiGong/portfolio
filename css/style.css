@@ -292,12 +292,11 @@ hometitle
 .home {
 	display: inline-block;
 	position: relative;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Rubik', sans-serif;
 	margin: 1em 2em 1em 0em;
-	letter-spacing: -0.025em;
+	font-weight: 300;
 	font-size: 14px;
 	color:#a9a9a9;
-
 }
 
 
@@ -321,24 +320,36 @@ hometitle
 }
 
 .homecontent {
-	margin-top: 200px;
+	font-family: 'Rubik', sans-serif;
+	margin-top: 300px;
 	margin-bottom: 120px;
 	text-align: left;
 	
 	
 }
 .homecontent p{
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 400;
+	
+	font-weight: 300;
 	font-size: 18px;
-	letter-spacing: -0.025em;
+	
 	color: #A9A9A9;
 }
-.homecontent span{
+.homecontent h5{
+
+	font-weight: 400;
 	color: #000; 
 	font-size: 22px;
 
+
 } 
+
+.homecontent span{
+	background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #E6E6FA 50%);
+
+} 
+
+
+
 /* ====================
 homewrap
 =======================*/
@@ -393,11 +404,11 @@ homewrap
 .wraphometitle p {
 	margin-top: 40px;
 	font-weight: 300;
-	font-size: 20px;
-	line-height: 24px;
+	font-size: 18px;
+	line-height: 26px;
 	text-align: left;
 	color: #C0C0C0;
-	letter-spacing: 0.025em;
+	
 }
 .wrap {
 	margin-left: 20%;
@@ -451,7 +462,7 @@ homewrap
 	line-height: 24px;
 	text-align: left;
 	color: #C0C0C0;
-	letter-spacing: 0.025em;
+	
 
 }
 
@@ -539,40 +550,40 @@ projectwrap
 }
 
 .portfolio-title h1 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Rubik', sans-serif;
 	font-size: 26px;
-	font-weight: 700;
+	font-weight: 500;
 	color: #fff;
 	margin-top: 15px;
 }
 .portfolio-title h3 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Rubik', sans-serif;
 	font-size: 40px;
-	font-weight: 700;
+	font-weight: 500;
 	color: #000;
 }
 
 .portfolio-title h5 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Rubik', sans-serif;
 	font-size: 16px;
-	font-weight: 700;
+	font-weight: 500;
 	color: #000;
 	line-height: 1.5;
 
 }
 .portfolio-title p {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Rubik', sans-serif;
 	font-size: 16px;
-	font-weight: 500;
+	font-weight: 400;
 	color: #696969;
 	line-height: 1.5;
 
 }
 
 .portfolio-title p span{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Rubik', sans-serif;
 	font-size: 16px;
-	font-weight: 700;
+	font-weight: 400;
 	color: #696969;
 	line-height: 1.5;
 
