@@ -359,8 +359,12 @@ Most of the social media platforms are based on the images uploaded by the users
 					<div class="portfolio-details3">
 <h1>DEFINE</h1>
 
+<h2>General Goal</h2>	
+<h4>| Competitive Landscape</h4>
+							<img src="img/thpk/images/C1.jpg" width="100%">
+							<p>Based on the market landscape and competitor's goal, we defined the goal of our service is providing <span>a more community-like campus life information aggregator</span>. </p>
 		<h2>Needs and Strategy</h2>
-		<h4>User Needs</h4>
+		<h4>| User Needs</h4>
 </div></div>
 
 	
@@ -368,7 +372,7 @@ Most of the social media platforms are based on the images uploaded by the users
 						<div class="portfolio-details3">
 							<img src="img/thpk/images/B5.jpg" width="100%">
 <p><span>1. Easy to Find Matched Posts</span><br><br>
-Strategy: <br>
+Implications: <br>
  · Search funtion
  · Categorize posts based on current posts data<br>
  · Provide different dimensions filters and shortcuts to help user match posts with their interests
@@ -377,10 +381,9 @@ Strategy: <br>
 		<div class="col-lg-6">
 						<div class="portfolio-details3">
 							<img src="img/thpk/images/B6.jpg" width="100%"> 
-<p><span>2. Appropriate Notifications
-
+<p><span>2.In-time Communications and Notifications
 	</span><br><br>
-	Strategy: <br>
+	Implications:<br>
 	 · Notify posters new comments<br>
 	 · No unnecessary disturbance after the request has been solved<br>
 	 · Provide preset period of validity option when posting a mission<br>
@@ -389,7 +392,7 @@ Strategy: <br>
 <div class="col-lg-12">
 					<div class="portfolio-details3">
 
-		<h4>Operation Needs</h4>
+		<h4>| Operation Needs</h4>
 </div></div>
 
 		<div class="col-lg-6">
@@ -413,16 +416,16 @@ Strategy:<br>
 
 		<div class="col-lg-12">
 						<div class="portfolio-details3">
-						<h2>Competitive Landscape</h2>	
-							<img src="img/thpk/images/C1.jpg" width="100%">
-<h2>Information Architecture</h2>
+						
+<h4>| Information Architecture</h4>
 
 <img src="img/thpk/images/C2.jpg" width="100%" height="100%">
 
 							<h3>Low-fi Concepts</h3>
 
 <img src="img/thpk/images/C3.jpg" width="100%" height="100%">
-<p>I still explored some picture-based card design. After individual design explorations and communication with our operational team, we decided to move <span>the listview content card design</span> forward, based on our first round research results and goal of building <span>a simple and swift</span> product.</p>
+<p>1. I still explored some picture-based card design. But for the nature of the WeChat Mini-Program and information aggregator, we decided to use <span>word-based card pattern without pictures</span> on the homepage.<br>
+2. After individual design explorations and communication with our operational team, we decided to move <span>the listview content card design</span> forward, based on our first round research results and goal of building <span>a simple and swift</span> product.</p>
 
 </div></div>
 
@@ -448,7 +451,7 @@ Strategy:<br>
 				<div class="col-lg-6">
 				<div class="portfolio-details3">
 				<p><span>Poster</span><br>
-					Heidi is a senior EE student who are going to graduate this Spring from Tsinghua University. Now she has already get a offer and start to work as a part time intern. So she is ready to relocated to her new apartment which is near Wangjing. 
+					Heidi is a senior EE student who are going to graduate this Spring from Tsinghua University. Now she has already get a offer and start to work as a part time intern. So she is ready to relocated to her new apartment.
 
 
 </p>
@@ -470,8 +473,8 @@ Strategy:<br>
 <div class="col-lg-12">
 
 <div class="portfolio-details3">
-<h5>Scenario</h5>
-<p>Heidi wants to sublet her off campus housing and to sell her books and some electronic appliances to trustful people on campus. Ryan wants to get a 3 months apartment sublet near Tsinghua University and some second hand item since he has spent too much money on housing. </p>
+<h5>User Stories</h5>
+<p>Heidi wants to sublet her off campus housing to trustful people, ideally students. She plans to sublet for 350$ a month and she has two pictures for her apartment. Ryan wants to get a sublet near Tsinghua University. </p>
 
 <h2>Mid-fi and User Flow</h2>
 </div></div>
@@ -480,10 +483,12 @@ Strategy:<br>
 <div class="col-lg-4">
 <div class="portfolio-details3">
 
-<h3>Use Case 1<br>Posting</h3>
+<h3>Use Case 1<br>Heidi creates a new post</h3>
 	<p>
-	 · Make user categorize their needs<br>
-	 · Encourage to add pictures when posting<br>
+	 · Taps the "create" button to make a new post<br>
+	 · Categorizes the post by filters on the top<br>
+	 	 · Enters post title and content<br>
+	 · Uploads pictures from phone
 </p>
 </div></div>
 <div class="col-lg-8">
@@ -492,25 +497,31 @@ Strategy:<br>
 
 <div class="col-lg-4">
 <div class="portfolio-details3">
-<h3>Use Case 2<br>Browsing, filtering and finding posts</h3>
+<h3>Use Case 2<br>Ryan tries to find a post matched with his interests</h3>
 <p>
-	 · Show user's identification<br>
-	 · Show filters based on poster attributes, like gender, identidication<br>
-	 · Show quick filters based on Missions attributes, like category and posted time<br>
-	 · Make Missions list searchable
+	 · Browses posts list<br>
+	  · Filters posts by categories<br>
+	   · Searches keywords <br>
+	 · Filters search results by poster's identification
 </p>
 
 </div></div>
+
 <div class="col-lg-8">
 <img src="img/thpk/images/D2.jpg" width="100%">
 </div>
 
 <div class="col-lg-4">
 <div class="portfolio-details3">
-<h3>Use Case 3<br>Reading, sharing and replying a post</h3>
+<h3>Use Case 3<br>Ryan gets a post he's interested in</h3>
 <p>
-		 · Only show thumbnails in three by three layout to make users browsing comments quicker<br>
- · Make user could interactive no matter poster or other respondents quickly
+		 · Taps post card and goes to post details page<br>
+		 · Reads the post content and browse the gallary<br>
+		 · Reads the former comments<br>
+		 · Likes a post and share to WeChat <br>
+		· Replies the post by using the template
+		· Replies other respondents
+		 
 	</p>
 </div></div>
 <div class="col-lg-8">
@@ -519,12 +530,15 @@ Strategy:<br>
 <div class="col-lg-4">
 <div class="portfolio-details3">
 
-<h3>Use Case 4<br>Tracking my post and receiving messages</h3>
+<h3>Use Case 4<br>Heidi waits for a deal</h3>
 	
-	<p>
-		 · Prioritize the Posts entrance for easily tracking mission feedbacks and progress<br>
-		 · Mark new replies bold to make user check one by one<br>
-		 · Make user could go back to their missions quickly
+	<p>· Receives WeChat notification from THPK Bang Service Platform<br>
+		· Taps notification and goes to post details page<br>
+		· Browses updated comments <br>
+		· Replies respondents<br>
+		· Shares WeChat ID to a respondent(Only visible to this person)<br>
+		· Starts private conversation in WeChat
+		 
 
 
 	</p>
@@ -532,16 +546,29 @@ Strategy:<br>
 <div class="col-lg-8">
 <img src="img/thpk/images/D4.jpg" width="100%">
 </div>
-
 <div class="col-lg-4">
 <div class="portfolio-details3">
-<h3>Use Case 5<br>Marking post as solved</h3>
-<p> · Provide preset term of validity or ending mission function for users
-	</p>
+<h3>Use Case 5<br>Ryan sees Heidi's WeChat</h3>
+<p> · Adds Heidi in Wechat
+· Has a more specific conversation with Heidi</p>
+
 	
 		</div></div>
 <div class="col-lg-8">
 <img src="img/thpk/images/D5.jpg" width="100%">
+
+</div>
+<div class="col-lg-4">
+<div class="portfolio-details3">
+<h3>Use Case 6<br>Heidi deals with Ryan</h3>
+<p> · Marks this post as "Solved" to freeze comments
+
+
+	</p>
+	
+		</div></div>
+<div class="col-lg-8">
+<img src="img/thpk/images/D6.jpg" width="100%">
 
 </div>
 	<div class="col-lg-12">
