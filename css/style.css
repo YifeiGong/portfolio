@@ -579,14 +579,15 @@ projectwrap
 	font-weight: 400;
 	color: #696969;
 	line-height: 1.5;
+	font-weight: 300;
 
 }
 
 .portfolio-title p span{
 	font-family: 'Rubik', sans-serif;
 	font-size: 16px;
-	font-weight: 400;
-	color: #696969;
+	font-weight: 300;
+	color: #000;
 	line-height: 1.5;
 
 }
