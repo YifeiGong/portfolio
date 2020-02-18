@@ -730,14 +730,56 @@ projectwrap
 /* Large screen : px. */
 
 @media only screen and (min-width: 1441px) and (max-width: 6000px) {
-		.contain {
- margin-left: 25%;
- margin-right: 25%;
-}
-.wrap {
-	
+.contain {
 	margin-left: 25%;
 	margin-right: 25%;
+}
+
+.wrap {
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+.wraphometitle h3{
+	font-weight: 500;
+	font-size: 44px;
+	line-height: 48px;
+	margin: 0;
+	z-index: 10;
+	color: #353535;
+}
+.wraphometitle h4 {
+	font-weight: 400;
+	font-size: 24px;
+	text-align: left;
+	color: #353535;
+	text-align:justify;
+	letter-spacing: -0.008em
+}
+
+.wraphometitle h5 {
+	border: none;
+	padding: 4px 14px;
+	text-align: left;
+	text-decoration: none;
+	display: inline-block;
+	border-color: #fff;
+	border-width: 1px;
+	border-radius: 12px;
+	font-weight: 300;
+	font-size: 16px;
+	color: #fff;
+	
+}
+
+.wraphometitle p {
+	margin-top: 40px;
+	font-weight: 300;
+	font-size: 22px;
+	line-height: 30px;
+	text-align: left;
+	color: #C0C0C0;
+	
 }
 
 .wraphome {
