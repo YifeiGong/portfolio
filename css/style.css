@@ -64,11 +64,14 @@ font-family: 'Rubik', sans-serif;
 .section-title p {
 	font-family: 'Rubik', sans-serif;
 	font-weight: 400;
-	font-size: 18px;
-	text-transform: uppercase;
-	letter-spacing: 5px;
+	color: #000; 
+	font-size: 22px;
+	 margin-top: 200px;
 }
 
+.section-title span{
+	background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #E6E6FA 50%);
+} 
 
 /* Preloder */
 
@@ -368,6 +371,7 @@ homewrap
 
 .wraphome img {
 	margin-top: 0px;
+	margin-bottom: 100px;
 	float:left;
 	width: 50%;
 }
