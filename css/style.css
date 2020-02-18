@@ -594,9 +594,10 @@ projectwrap
 
 
 .portfolio-details3 {
-	font-family: 'Rubik', sans-serif;
+	
 }
 .portfolio-details3 h1 {
+	font-family: 'Rubik', sans-serif;
 	text-transform: uppercase;
 	color: #e8e8e8;
 	font-size: 30px;
@@ -608,6 +609,7 @@ projectwrap
 }
 
 .portfolio-details3 h2 {
+	font-family: 'Rubik', sans-serif;
 
 
 	font-size: 24px;
@@ -619,10 +621,10 @@ projectwrap
 }
 
 .portfolio-details3 h3 {
-
-	color: #000;
+	font-family: 'Playfair Display', serif;
+	color: #373737;
 	font-size: 28px;
-	font-weight: 400;
+	font-weight: 700;
 	line-height: 32px;
 	text-align: left;
 	padding-top: 50px;
@@ -633,6 +635,7 @@ projectwrap
 
 
 .portfolio-details3 h4 {
+	font-family: 'Rubik', sans-serif;
 	color:#1E90FF;
 	text-align: center;
 	font-size: 24px;
@@ -642,6 +645,7 @@ projectwrap
 
 }
 .portfolio-details3 h5 {
+	font-family: 'Rubik', sans-serif;
 	font-size: 24px;
 	font-weight: 500;
 	text-align: left;
@@ -650,6 +654,7 @@ projectwrap
 
 }
 .portfolio-details3 p {
+	font-family: 'Rubik', sans-serif;
 	color: #333333;
 	font-size: 18px;
 	line-height: 1.5;
@@ -668,6 +673,7 @@ projectwrap
 
 
 .portfolio-details3 p span {
+	font-family: 'Rubik', sans-serif;
 	font-weight: 400;
 	color: #000;
 
