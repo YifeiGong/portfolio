@@ -628,16 +628,16 @@ hr {
 
 
 .scroll-nav {
- 
+ z-index: 1000;
   position: absolute;
+  margin-top: 30%
   
-  top: 74px;
   width: 12.5%;
 }
 .scroll-nav.fixed {
 
   position: fixed;
-  top: 60px;
+  top: 20%;
 
 }
 
