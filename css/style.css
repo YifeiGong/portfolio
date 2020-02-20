@@ -364,6 +364,7 @@ hometitle
 
 .homecontent a:hover   {
 	border-color: #483D8B;
+	text-decoration: none;
 	color: #fff;
 	background-color: #483D8B;
 }
@@ -389,7 +390,7 @@ homewrap
 =======================*/
 .wrapframe {
 	cursor: pointer;
-	margin-bottom: 100px;
+	padding: 0px 10px 20px 10px;
 }
 
 .wraphome {
@@ -399,28 +400,28 @@ homewrap
 }
 
 .wraphome img {
-	margin-top: 0px;
-	margin-bottom: 100px;
 	float:left;
 	width: 50%;
 }
 
-.wraphome a:hover {
+.wraphomelink a:hover {
+	border: none;
+	border-radius: 20px;
 	text-decoration: none;
-
+	background-color: #fafafa;
 }
+
 .wraphome a:focus {
 	outline: none;
-
 }
 
 .wraphometitle {
 	font-family: 'Rubik', sans-serif;
-	margin: 0;
+	
 	z-index: 10;
 	cursor: pointer;
 	position: absolute;
-	top: 10%;
+	top: 15%;
 	left: 50%;
 }
 
@@ -429,7 +430,7 @@ homewrap
 	font-weight: 500;
 	font-size: 40px;
 	line-height: 44px;
-	margin: 0;
+	
 	z-index: 10;
 	color: #353535;
 }
