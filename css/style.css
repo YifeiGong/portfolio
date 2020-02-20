@@ -341,24 +341,33 @@ hometitle
 	
 	color: #A9A9A9;
 }
-.homecontent h4 {
-	border: none;
-	padding: 4px 14px;
+
+
+.homecontent a {
+	margin: 0px;
+	border: solid;
+	padding: 4px 20px;
 	text-align: left;
 	text-decoration: none;
 	display: inline-block;
-	border-color: #fff;
-	border-width: 1px;
+	border-color: #E6E6FA;
+	border-width: 2px;
 	border-radius: 20px;
 	font-weight: 400;
 	font-size: 20px;
 	color: #000;
 	background-color: #E6E6FA;
-	
 }
 
-.homecontent h5{
+.homecontent a:hover   {
+	border-color: #483D8B;
+	color: #fff;
+	background-color: #483D8B;
+}
 
+
+.homecontent h5{
+	line-height: 26px;
 	font-weight: 400;
 	color: #000; 
 	font-size: 22px;
