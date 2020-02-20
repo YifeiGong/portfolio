@@ -344,9 +344,12 @@ hometitle
 
 
 .homecontent a {
-	margin: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	margin-right: 10px;
 	border: solid;
-	padding: 4px 20px;
+	padding: 2px 16px;
 	text-align: left;
 	text-decoration: none;
 	display: inline-block;
