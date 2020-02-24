@@ -442,6 +442,7 @@ homewrap
 	position: absolute;
 	top: 15%;
 	left: 50%;
+	margin-right: 15px;
 }
 
 
@@ -458,7 +459,7 @@ homewrap
 	font-size: 20px;
 	text-align: left;
 	color: #353535;
-	text-align:justify;
+	text-align:left;
 	letter-spacing: -0.008em
 }
 
