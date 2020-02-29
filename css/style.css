@@ -319,6 +319,7 @@ hometitle
 .homecurrent {
 	color: #000;
 	border-color: currentColor;
+	font-weight: 400;
 }
 
 .homecurrent .decoshape {
@@ -339,7 +340,7 @@ hometitle
 	font-weight: 300;
 	font-size: 20px;
 	
-	color: #696969s;
+	color: #696969;
 }
 
 
