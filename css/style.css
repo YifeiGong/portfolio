@@ -807,6 +807,7 @@ projectwrap
 
 .homecontent p{
 	font-size: 20px;
+	margin-bottom: 100px;
 }
 .homecontent h5{
 	font-size: 24px;
@@ -828,7 +829,7 @@ projectwrap
 .wraphometitle h5 {
 	padding-right: 4px;
 	border-radius: 12px;
-	font-size: 14px;
+	font-size: 18px;
 }
 
 .wraphometitle p {
