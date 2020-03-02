@@ -1,1 +1,1 @@
-document.writeln("<p style=\'text-align: center; font-weight: 400; color: #C0C0C0; margin-top: 100px;\'>Designed and Coded by Faye Yifei Gong with ☕ and ❤️| All Rights Reserved  | @fayegong.xyz© 2014-2020</p>");
+document.writeln("<p style=\'text-align: center; font-weight: 400; color: #C0C0C0; margin-top: 100px;\'>Designed and Coded by Faye Yifei Gong with ☕ and ❤️| @fayegong.xyz© 2014-2020</p>");
