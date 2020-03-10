@@ -365,8 +365,6 @@ hometitle
 }
 
 .homecontent a:visited {
-	
-	
 	border-color: #E6E6FA;
 	border-width: 2px;
 	border-radius: 20px;
@@ -383,13 +381,19 @@ hometitle
 	background-color: #483D8B;
 }
 
-
-.homecontent h5{
-	line-height: 36px;
+.homecontent h4{
+	line-height: 32px;
 	font-weight: 400;
 	color: #000; 
-	font-size: 22px;
+	font-size: 24px;
 
+}
+
+.homecontent h5{
+	line-height: 60px;
+	font-weight: 400;
+	color: #000; 
+	font-size: 40px;
 } 
 
 .homecontent span{
@@ -812,7 +816,7 @@ color: #484848;
 	font-size: 20px;
 }
 .homecontent h5{
-	font-size: 24px;
+	
 } 
 
 .wraphometitle {
