@@ -390,8 +390,9 @@ hometitle
 }
 
 .homecontent h5{
+	font-family: 'Playfair Display', serif;
 	line-height: 60px;
-	font-weight: 400;
+	font-weight: 500;
 	color: #000; 
 	font-size: 40px;
 } 
@@ -446,9 +447,10 @@ homewrap
 
 
 .wraphometitle h3{
-	font-weight: 500;
-	font-size: 40px;
-	line-height: 44px;
+	font-family: 'Playfair Display', serif;
+	font-weight: 600;
+	font-size: 44px;
+	line-height: 46px;
 	
 	z-index: 10;
 	color: #353535;
@@ -711,11 +713,10 @@ color: #484848;
 	color: #373737;
 	font-size: 28px;
 	font-weight: 700;
-	line-height: 40px;
+	line-height: 44px;
 	text-align: left;
 	padding-top: 50px;
 	padding-bottom: 10px;
-
 }
 
 
@@ -822,10 +823,9 @@ color: #484848;
 .wraphometitle {
 	top: 15%;
 	left: 50%;
-
 }
 .wraphometitle h3{
-	font-size: 44px;
+	font-size: 50px;
 	line-height: 44px;
 }
 .wraphometitle h4 {
