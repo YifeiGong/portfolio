@@ -899,10 +899,11 @@ color: #484848;
 }
 
 .homecontent p{
-	font-size: 10px;
+	font-size: 14px;
 }
 .homecontent h5{
-	font-size: 12px;
+	font-size: 20px;
+	line-height: 26px;
 } 
 
 
@@ -927,12 +928,12 @@ color: #484848;
 
 .wraphome img {
 	float:left;
-	width:30%;
+	width:100%;
 }
 
 .wraphometitle {
-	top: 15%;
-	left: 30%;
+	top: 100%;
+	left: 10%;
 
 }
 .wraphometitle h3{
