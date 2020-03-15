@@ -388,6 +388,15 @@ hometitle
 	font-size: 24px;
 }
 
+
+.homecontent h3{
+	font-family: 'Playfair Display', serif;
+	line-height: 100px;
+	font-weight: 500;
+	color: #000; 
+	font-size: 80px;
+} 
+
 .homecontent h5{
 	font-family: 'Playfair Display', serif;
 	line-height: 60px;
@@ -814,7 +823,9 @@ color: #484848;
 .homecontent p{
 	font-size: 20px;
 }
-.homecontent h5{
+.homecontent h3{
+	font-size: 88px;
+	line-height: 120px;
 	
 } 
 
@@ -904,7 +915,10 @@ color: #484848;
 	line-height: 26px;
 } 
 
-
+.homecontent h3{
+	font-size: 30px;
+	line-height: 36px;
+} 
 
 
 .homecontent a {
