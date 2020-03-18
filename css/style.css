@@ -705,7 +705,7 @@ projectwrap
 
 .portfolio-details3 h2 {
 	font-family: 'Rubik', sans-serif;
-color: #484848;
+
 
 	font-size: 24px;
 	font-weight: 500;
@@ -716,13 +716,13 @@ color: #484848;
 }
 
 .portfolio-details3 h3 {
-	font-family: 'Playfair Display', serif;
+	font-family: 'Rubik', sans-serif;
 	color: #373737;
 	font-size: 30px;
-	font-weight: 700;
+	font-weight: 500;
 	line-height: 50px;
 	text-align: left;
-	padding-top: 20px;
+	padding-top: 10px;
 	padding-bottom: 10px;
 }
 
@@ -744,7 +744,7 @@ color: #484848;
 	font-size: 24px;
 	font-weight: 500;
 	text-align: left;
-	padding-top: 100px;
+	padding-top: 40px;
 	padding-bottom: 10px;
 
 }
