@@ -328,9 +328,10 @@ hometitle
 }
 
 .homecontent {
+	
 	font-family: 'Rubik', sans-serif;
-	margin-top: 240px;
-	margin-bottom: 200px;
+	margin-top: 40px;
+	margin-bottom: 120px;
 	text-align: left;
 	
 	
@@ -428,7 +429,7 @@ homewrap
 
 .wraphome img {
 	float:left;
-	width: 50%;
+	
 }
 
 .wraphomelink a:hover {
