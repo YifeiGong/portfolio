@@ -465,7 +465,7 @@ homewrap
   
   background-color: var(--photoboxOverlay, rgba(0, 0, 0, .8));
   opacity: 0;
-  transition: opacity var(--photoboxAnimationDuration, .4s) cubic-bezier(0.71, 0.05, 0.29, 0.9);
+  transition: opacity var(--photoboxAnimationDuration, .3s) cubic-bezier(0.71, 0.05, 0.29, 0.9);
   will-change: opacity;
   
   position: absolute;
@@ -484,7 +484,7 @@ homewrap
   text-align: left;
   
   opacity: 0;  
-  transition: opacity calc(var(--photoboxAnimationDuration, .4s) / 4) cubic-bezier(0.71, 0.05, 0.29, 0.9);
+  transition: opacity calc(var(--photoboxAnimationDuration, .3s) / 4) cubic-bezier(0.71, 0.05, 0.29, 0.9);
   will-change: opacity;
   
   position: absolute;
@@ -542,17 +542,19 @@ homewrap
 }
 
 .photobox_type16:hover .photobox__preview{
-  transform: scale(1.2) translate(4%, 4%);
+  transform: scale(1.4) translate(4%, 4%);
 }
 
 
 
 .wrapframe {
+	max-height: 100%;
 	width: 50%;
 	cursor: pointer;
 	z-index: 10;
 	text-decoration: none;
-	padding: 3px;
+	padding: 2px;
+	margin: 0px;
 
 	
 }
