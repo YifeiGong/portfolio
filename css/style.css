@@ -359,7 +359,7 @@ hometitle
 	border-width: 2px;
 	border-radius: 20px;
 	font-weight: 400;
-	font-size: 18px;
+	font-size: 20px;
 	line-height: 30px;
 	color: #000;
 	background-color: #E6E6FA;
@@ -386,7 +386,7 @@ hometitle
 	line-height: 32px;
 	font-weight: 400;
 	color: #000; 
-	font-size: 20px;
+	font-size: 24px;
 }
 
 
@@ -421,8 +421,6 @@ homewrap
 .wraphome {
 	margin-left: 20%;
 	margin-right: 20%;
-	padding: 0px;
-
 
 }
 
@@ -509,7 +507,7 @@ homewrap
 }
 
 .photobox_type16 .photobox__label p{
-	
+	margin-top: 40px;
 	font-weight: 300;
 	font-size: 20px;
 	line-height: 28px;
@@ -524,7 +522,7 @@ homewrap
 	text-align: left;
 	
 	display: inline-block;
-	
+	margin-right: 16px;
 	
 	font-weight: 400;
 	font-size: 16px;
@@ -548,19 +546,21 @@ homewrap
 }
 
 
+
+
 .wrapframe {
 
 	width: 50%;
-padding: 0px;
-margin: 0px;
+padding: 20px;
 	cursor: pointer;
-	z-index: 2;
+	z-index: 10;
 	text-decoration: none;
 	
+
+
+
 	
 }
-
-
 
 
 .wrapframe h3{

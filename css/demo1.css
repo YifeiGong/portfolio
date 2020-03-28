@@ -1,0 +1,291 @@
+@font-face {
+	font-family: 'Montserrat';
+	font-weight: bold;
+	font-style: normal;
+	src: url('../fonts/nexa_boldfree_macroman/Nexa_Free_Bold-webfont.eot');
+	src: url('../fonts/nexa_boldfree_macroman/Nexa_Free_Bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/nexa_boldfree_macroman/Nexa_Free_Bold-webfont.woff2') format('woff2'), url('../fonts/nexa_boldfree_macroman/Nexa_Free_Bold-webfont.woff') format('woff'), url('../fonts/nexa_boldfree_macroman/Nexa_Free_Bold-webfont.ttf') format('truetype'), url('../fonts/nexa_boldfree_macroman/Nexa_Free_Bold-webfont.svg#nexa_boldregular') format('svg');
+}
+
+*,
+*::after,
+*::before {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	
+	font-weight: 500;
+	background-color: #696969;
+	background-color: var(--background-color);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+main {
+
+
+}
+
+/* Page Loader */
+.js .loading::before {
+	content: '';
+	position: fixed;
+	z-index: 10000;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: var(--background-color);
+}
+
+.js .loading::after {
+	content: '';
+	position: fixed;
+	z-index: 10000;
+	top: calc(50% - 30px);
+	left: calc(50% - 30px);
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	border: 10px solid var(--background-color-2);
+	border-left-color: var(--text-color);
+	animation: loaderAnim 0.8s linear infinite forwards;
+}
+
+@keyframes loaderAnim {
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+
+
+.hidden {
+	position: absolute;
+	overflow: hidden;
+	width: 0;
+	height: 0;
+	pointer-events: none;
+}
+
+/* Icons */
+.icon {
+	display: block;
+	width: 1.5em;
+	height: 1.5em;
+	margin: 0 auto;
+	fill: currentColor;
+}
+
+/* Deco Shape */
+.decoshape {
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	fill: var(--background-color-3);
+}
+
+/* SVG Morph */
+.morph-wrap {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	pointer-events: none;
+}
+
+.morph {
+	position: relative;
+	height: 100%;
+	fill: var(--background-color-2);
+	flex: none;
+}
+
+
+
+
+
+
+
+
+
+.content-wrap {
+	
+	
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	pointer-events: none;
+}
+
+.content {
+	position: relative;
+	
+	
+}
+
+
+
+.content--fixed a {
+	pointer-events: auto;
+}
+
+.content--layout {
+	pointer-events: auto;
+	
+}
+
+
+.content__img {
+	
+	opacity: 1;
+	
+	width: 100%;
+}
+
+.content__title {
+	padding-top: 30px;
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	z-index: 10;
+	cursor: default;
+	
+}
+.content__title h3{
+
+	
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	letter-spacing: -0.025em;
+	font-size: 42px;
+	line-height: 46px;
+	margin: 0;
+	z-index: 10;
+	cursor: default;
+	
+	color: #353535;
+	
+}
+
+.content__title h4 {
+	margin-top: 8px;
+	font-family: 'Rubik', sans-serif;
+	letter-spacing: -0.025em;
+	font-weight: 400;
+	font-size: 20px;
+	text-align: left;
+	color: #353535;
+	
+	text-align:justify;
+
+}
+
+.content__title p {
+	margin-top: 24px;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	text-align: left;
+	color: #A9A9A9;
+	
+	text-align:justify;
+
+}
+
+
+
+
+
+
+.content__img,
+.content__title,
+.content__author {
+
+	transition: transform 0.3s ease-out;
+}
+
+.content__link {
+	font-family: 'Rubik', sans-serif;
+	
+	
+	
+	z-index: 10;
+	/*padding: 0 1em 0.15em;*/
+}
+
+
+.content__related-item:hover .content__related-img,
+.content__related-item:focus .content__related-img {
+	opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 50em) {
+	.content--fixed {
+		height: auto;
+		min-height: 0;
+		display: block;
+		z-index: 1000;
+		position: absolute;
+	}
+	.codrops-header {
+		align-items: center;
+		flex-direction: column;
+	}
+	.deco--title {
+		display: none;
+	}
+	.demos {
+		text-align: left;
+	}
+}
+
+@media screen and (max-width: 40em) {
+	.content--layout {
+		transform: scale3d(0.8,0.8,1);
+	}
+}
+
+@media screen and (max-width: 36em) {
+	.content--layout {
+		transform: scale3d(0.7,0.7,1);
+	}
+}
+
+@media screen and (max-width: 32em) {
+	.content--layout {
+		transform: scale3d(0.6,0.6,1);
+	}
+	.content__author,
+	.content__desc,
+	.content__link {
+		font-size: 1.35em;
+	}
+}
+
+@media screen and (max-width: 28em) {
+	.content--layout {
+		transform: scale3d(0.5,0.5,1);
+	}
+}
