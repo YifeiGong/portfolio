@@ -547,17 +547,15 @@ homewrap
 
 
 
-
 .wrapframe {
+	
+	max-width: 50%;
 
-	width: 50%;
-padding: 20px;
 	cursor: pointer;
 	z-index: 10;
 	text-decoration: none;
-	
-
-
+	padding: 5px;
+	margin: 0px;
 
 	
 }
