@@ -869,8 +869,18 @@ projectwrap
 	text-align: left;
 	padding-top: 40px;
 	padding-bottom: 10px;
-
 }
+
+.portfolio-details3 h6 {
+	font-family: 'Playfair Display', serif;
+	color: #333333;
+	font-size: 22px;
+	line-height: 1.7;
+	text-align: left;
+	font-weight: 400;
+}
+
+
 .portfolio-details3 p {
 	font-family: 'Rubik', sans-serif;
 	color: #333333;
