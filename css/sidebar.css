@@ -1,0 +1,111 @@
+.clearfix, form ul li, .all-yours, .features-list {
+  *zoom: 1;
+}
+.clearfix:before, form ul li:before, .all-yours:before, .features-list:before, .clearfix:after, form ul li:after, .all-yours:after, .features-list:after {
+  content: "";
+  display: table;
+}
+.clearfix:after, form ul li:after, .all-yours:after, .features-list:after {
+  clear: both;
+}
+
+.unstyled-list, .scroll-nav-list, .all-yours, .features-list, .author-details {
+  padding-left: 0;
+  list-style: none;
+}
+
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+/*
+ * Addresses `outline` inconsistency between Chrome and other browsers.
+ */
+a:focus {
+  outline: none;
+}
+
+/*
+ * Improves readability when focused and also mouse hovered in all browsers.
+ */
+a:active,
+a:hover {
+  
+  color: #000;
+  background-color: #F5F5F5;
+  
+}
+
+a:link  { 
+  color:#D3D3D3; 
+}
+
+
+
+
+.scroll-nav {
+  z-index: 1000;
+  position: absolute;
+  padding-left: 20%;
+  background-color: #fff;
+  width: 100%;
+  
+
+}
+
+.scroll-nav.fixed {
+  position: fixed;
+  top: 0%;
+
+}
+
+.scroll-nav-heading {
+  display: none;
+  
+}
+
+.scroll-nav-item {
+  font-family: 'Playfair Display', serif;
+  background-color: #fff;
+  display: inline-block;
+  padding-top: 10px;
+  margin-right: 2%;
+  font-size: 18px;
+  overflow: visible;
+  
+}
+.scroll-nav-item:before {
+  color: #f0f0f0;
+
+}
+.scroll-nav-item:hover:before {
+  color: #f0f0f0;
+}
+.scroll-nav-item.active {
+  -webkit-transform: scale(1, 1);
+  -moz-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  -o-transform: scale(1, 1);
+  transform: scale(1, 1);
+  color: #696969;
+  font-weight: 700;
+  
+}
+.scroll-nav-item.active .scroll-nav-link {
+  color: #212121;
+}
+.scroll-nav-item.active:before {
+
+  color: #212121;
+}
+.scroll-nav-item.active a:hover {
+  
+}
+
+.scroll-nav-link {
+  display: block;
+  
+}
+
+
+
