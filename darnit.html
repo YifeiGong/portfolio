@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Darn It! - Faye Gong's Portfolio</title>
+<meta name="description" content="A page background effect where SVG shapes morph and transform on scroll" />
+		<meta name="keywords" content="background, svg, morph, animation, scroll, shape, web development, css, javascript" />
+		<meta name="author" content="Faye Gong" />
+		<link href="img/favicon.png" rel="shortcut icon"/>
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300, 400, 500, 600, 700|Rubik:300, 400,500,700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/sidebar.css" />
+				<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136104655-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-136104655-1');
+</script>
+
+		<script>
+			document.documentElement.className = 'js';
+			var supportsCssVars = function() {
+				var s = document.createElement('style'),
+				support;
+
+				s.innerHTML = "root: { --tmp-var: bold; }";
+				document.head.appendChild(s);
+				support = !!(window.CSS && window.CSS.supports && window.CSS.supports('font-weight', 'var(--tmp-var)'));
+				s.parentNode.removeChild(s);
+				return support;
+			}
+			if (!supportsCssVars()) alert('Please view this demo in a modern browser that supports CSS Variables.')
+		</script>
+    <style type="text/css">
+    h2{color:#E9967A} 
+span{background-color: #FFF5EE}
+a{color: #000} 
+h5{color:#E9967A}</style>
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+
+<body>
+	<div class="wrap">		
+	<div class="homefixed">
+				<header>
+				<nav class="home">
+					<a class="home homecurrent" href="index.html">FAYE GONG</a>
+					<a class="home" href="projects.html">Projects</a>
+					<a class="home" href="aboutme.html">About Me</a>
+					
+					<a class="home" href="Resume_FayeYifeiGong_UX.pdf" target="blank">Resume</a>
+					<a class="home" href="https://www.linkedin.com/in/yfgong/?locale=en_US" target="blank">Linkedin</a>
+
+
+				</nav>
+
+				</header>
+			</div>
+	<!-- Portfolio details start -->
+
+<section style="background-color: #fff;">
+<div class="portfolio-title">
+		<div class="container">
+    	    <div class="row">
+		 <div class="col-lg-7">
+		<h1 style="color: #E9967A;">Darn it!</h1>
+		<h3>An Emotional Music Speaker Designed For Furious Behaviors</h3>
+		<br><br>
+		<h5></h5>
+<p><span>PROJECT TYPE </span>Undergraduate Project<br>
+        <span>DELIVERABLES </span>Look-like Prototypes, Technical Prototypes<br>
+        <span>DURATION </span>June 2014<br>
+        <span>MY ROLE </span>Product Lead
+		</p>
+</div>
+	 <div class="col-lg-5">
+	 	
+		<!-- <img src="img/maat/images/hero.png" width="260px">-->
+		</div>
+	</div>
+</div></div>
+</section>
+
+		</div>
+
+
+
+
+
+
+
+
+			
+<div class="main">
+	<div class="post-article">
+<div class="contain">
+	
+		<section id="A">
+			<div class="container">
+    	    <div class="row">
+						<div class="col-lg-1"></div>
+						<div class="col-lg-10">
+							<div class="portfolio-details3">
+								<h2>Overview</h2>
+			<p>Darn it is an interaction speaker based on Arduino and sensors. The user could control the on/off, volume, and songs list of the speaker by hitting, rotating, and beating behaviors.</p>
+		<div class="wrapper">
+            <div class="js-video">
+             <video class="js-media" poster="img/video/darnit.png">
+                 <source src="darnit.mp4" type="video/mp4" />
+                 <p>你的浏览器不支持 HTML5 Video。</p>
+             </video>
+             <i data-playPause class="playPause fa fa-play ui-icon"><span></span>
+             </i>
+         <div class="ui">
+             <div>
+             <div data-progress class="progress">
+        <div data-buffer class="progress-buffer">
+        </div>
+        <div data-time class="progress-time">
+        </div>
+      </div><!-- progress -->
+      </div>
+      <div>
+      <span class="timeDisplay"><i data-currentTime>0:00</i> / <i data-duration>0:00</i></span>
+      </div>
+      <div>
+      <i data-mute class="fa fa-volume-up ui-icon"></i>
+      </div>
+      <div>
+      <div data-volume="100" class="volumeControl"><span class="ui-slider-handle"></span></div>
+      </div>
+    </div><!-- ui -->
+    <i data-fullscreen class="fullscreen iconicfill-fullscreen" title="fullscreen"></i>
+  </div><!-- js-video -->
+
+</div>
+<script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
+<script src="js/vedio.js"></script>
+<br>
+
+			
+
+
+			<h2>Ideation</h2>
+			<h3>Prompt and Define</h3>
+			<p>My team was assigned for the angry emotion speaker. We interpreted and brainstormed  angry facial expression and actions. <br><br>
+			After a brainstorm practice, we made a library of angry actions and chose to develop three of them, beating, wringing, and hiting.</p>
+		</div></div>
+		<div class="col-lg-1"></div>
+		<img src="img/darnit/images/A1.jpg" width="100%">
+		<div class="col-lg-1"></div>
+						<div class="col-lg-10">
+							<div class="portfolio-details3">
+								<h1>Ideat</h1>
+			<h2>Sketchings</h2>
+			<p>The form design idea derives from angry behaviors and the tumbler appearance which could induce hitting.</p>
+			</div></div>
+		<div class="col-lg-1"></div>
+	<img src="img/darnit/images/B.jpg" width="100%">
+
+		<div class="col-lg-1"></div>
+						<div class="col-lg-10">
+							<div class="portfolio-details3">
+		    
+		    <h2>Interactions and Technical Plan</h2>
+		</div></div>
+		    <div class="col-lg-1"></div>
+	<img src="img/darnit/images/B1.jpg" width="100%">
+		<div class="col-lg-1"></div>
+						<div class="col-lg-10">
+							<div class="portfolio-details3">
+        	
+	       
+	        <h2>Test Prototype Making</h2>
+	        </div></div>
+		    <div class="col-lg-1"></div>
+	 <img src="img/darnit/images/B2.jpg" width="100%">
+
+		<div class="col-lg-1"></div>
+						<div class="col-lg-10">
+							<div class="portfolio-details3">
+	       
+
+
+			<h2>Model Making</h2>
+			<p>3D model making: Rhinoceros<br>
+Rendering: Keyshots<br>
+Model making: PLA material 3D print</p>
+			<img src="img/darnit/images/C.jpg" width="100%">
+		<div id="wrapper">
+  <div id="slider-wrap">
+    <ul id="slider">
+     <li>         
+      <img src="img/darnit/1.png" >
+      </li>
+     
+     <li>         
+      <img src="img/darnit/2.png" >
+      </li>
+
+      <li>         
+      <img src="img/darnit/3.png" >
+      </li>
+     
+     
+    </ul>
+    
+     <!--controls-->
+    <div class="btns" id="next"><i class="fa fa-arrow-right"></i></div>
+    <div class="btns" id="previous"><i class="fa fa-arrow-left"></i></div>
+    <div id="counter"></div>
+    
+    <div id="pagination-wrap">
+    <ul>
+    </ul>
+    </div>
+    <!--controls-->  
+       
+  </div>
+</div>
+
+
+	        <h2>Reflections and Future</h2>
+            <p>This project was done in a very short time with two other team members. I was the team leader and took responsibility for the 3D model. I reserved enough space for all the sensors and trimmed the 3D print model by hand. An appropriate configuration design is very crucial for the tangible interaction design.<br><br>
+            The interaction with the user could be more plentiful, such as various color lights and transformation, to express the angry emotion and bring feedback to the user.<p/>
+    
+	</section>
+
+	<!-- Portfolio details end -->
+
+
+	<br><br><br>
+	<!-- Footer section start -->
+	<script src="js/footer.js"></script>
+	<!-- Footer section end -->
+
+	<!--====== Jquery & Javascripts files  ======-->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.scrollNav.min.js"></script>
+	<script>
+		$('.post-article').scrollNav({
+			sections: 'h2',
+			titleText: 'Sections',
+			fixedMargin: 60
+		});
+		var $item = $('.scroll-nav-item');
+		$.each($item, function(){
+			$text = $(this).find('a').html().toLowerCase();
+			$(this).addClass($text);
+		});
+	</script>
+	<script src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/slide.js"></script>
+  
+	<script src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/slide.js"></script>
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/jquery.nav.min.js"></script>
+	<script src="js/isotope.pkgd.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/magnific-popup.min.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/scripts.js"></script>
+    <script src="js/jquery.jkit.1.2.16.min.js"></script>
+
+</body>
+
+
+</html>

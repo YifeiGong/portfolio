@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>DUO - Faye Gong's Portfolio</title>
+		<meta name="description" content="A page background effect where SVG shapes morph and transform on scroll" />
+		<meta name="keywords" content="background, svg, morph, animation, scroll, shape, web development, css, javascript" />
+		<meta name="author" content="Codrops" />
+
+		<!-- Favicon -->   
+	<link href="img/favicon.png" rel="shortcut icon"/>
+	
+
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300, 400, 500, 600, 700|Rubik:300, 400,500,700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="sponsor/pater.css" />
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136104655-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-136104655-1');
+</script>
+
+
+<body>
+	<div class="wrap">		
+	<div class="homefixed">
+				<header>
+				<nav class="home">
+					<a class="home homecurrent" href="index.html">FAYE GONG</a>
+					<a class="home" href="projects.html">Projects</a>
+					<a class="home" href="aboutme.html">About Me</a>
+					
+					<a class="home" href="Resume_FayeYifeiGong_UX.pdf" target="blank">Resume</a>
+					<a class="home" href="https://www.linkedin.com/in/yfgong/?locale=en_US" target="blank">Linkedin</a>
+
+
+				</nav>
+
+				</header>
+			</div>
+		</div>
+
+<div class="main">
+	<div class="post-article">
+<div class="contain">
+
+	<!-- Portfolio details start -->
+
+		<img src="img/duo/images/1.png" width="100%">
+		<img src="img/duo/images/2.png" width="100%">
+		<img src="img/duo/images/3.png" width="100%">
+		<img src="img/duo/images/4.png" width="100%">
+		<img src="img/duo/images/5.png" width="100%">
+		<img src="img/duo/images/6.png" width="100%">
+		<img src="img/duo/images/7.png" width="100%">
+		<img src="img/duo/images/8.png" width="100%">
+		<img src="img/duo/images/9.png" width="100%">
+		<img src="img/duo/images/10.png" width="100%">
+		<img src="img/duo/images/11.png" width="100%">
+		<img src="img/duo/images/12.png" width="100%">
+		<img src="img/duo/images/13.png" width="100%">
+		
+
+
+	  <!--<section id="H" class="portfolio-details">
+		<div class="container"><h2>Reflections and Future<h2/></div>
+ <div class="container">
+      <p>The most challenge part of this project was the technical solution part. To get a better output, I chose a solution which could not be programmed by myself. But with the help of an engineer, we finally got a good actualization and tested it successfully.<br><br>
+
+I applied for a patent after graduation. Moreover, based on the wire in the smart material and solar energy system, the volume of kewa system could be reduced dramatically. Thus it could be more convenient to assemble on the clothes and cheap for the users.
+<p/>
+      </div>
+	</section>-->
+
+	<!-- Portfolio details end -->
+
+
+
+	<br><br><br>
+	<!-- Footer section start -->
+	<script src="js/footer.js"></script>
+	<!-- Footer section end -->
+
+	<!--====== Jquery & Javascripts files  ======-->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.scrollNav.min.js"></script>
+	<script>
+		$('.post-article').scrollNav({
+			sections: 'h2',
+			titleText: 'Sections',
+			fixedMargin: 60
+		});
+		var $item = $('.scroll-nav-item');
+		$.each($item, function(){
+			$text = $(this).find('a').html().toLowerCase();
+			$(this).addClass($text);
+		});
+	</script>
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/jquery.nav.min.js"></script>
+	<script src="js/isotope.pkgd.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/magnific-popup.min.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/scripts.js"></script>
+    <script src="js/jquery.jkit.1.2.16.min.js"></script>
+
+</body>
+
+</html>
